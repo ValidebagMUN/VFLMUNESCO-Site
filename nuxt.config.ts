@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: false },
-  modules: ['nuxt-svgo', '@nuxtjs/color-mode', '@nuxtjs/tailwindcss'],
+  devtools: { enabled: true },
+  modules: ['@nuxtjs/color-mode', '@nuxtjs/tailwindcss', '@nuxt/image'],
   colorMode: {
     classSuffix: '',
   },
