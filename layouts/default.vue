@@ -5,7 +5,7 @@
             <Meta name="canonical" content="https://www.validebagmun.org/"></Meta>
         </Head>
         <Header :is-dark="isDark" />
-        <div class="min-h-[92vh]">
+        <div class="min-h-[89vh]">
             <slot />
         </div>
         <Footer :is-dark="isDark" />
