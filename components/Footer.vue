@@ -1,11 +1,11 @@
 <template>
     <div>
-        <footer class="footer p-10 bg-base-200 text-[1rem] text-base-content dark:bg-neutral dark:text-secondary">
+        <footer class="footer p-10 bg-base-100 text-[1rem] text-base-content dark:bg-neutral dark:text-secondary">
             <div>
                 <NuxtImg src="/vmun-light.svg" alt="ValidebagMUN logo" class="h-28" v-show="isDark" />
                 <NuxtImg src="/vmun-dark.svg" alt="ValidebagMUN logo" class="h-28" v-show="!isDark" />
                 <p>Validebağ Science High School<br />Model United Nations Club</p>
-                <span class="text-neutral dark:text-base-200 font-semibold">Developed by <a target="_blank"
+                <span class="font-semibold text-neutral dark:text-base-200">Developed by <a target="_blank"
                         href="https://github.com/HexaBinary">HexaBinary</a>
                 </span>
                 <SimpleAnalyticsBadge />
