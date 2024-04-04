@@ -5,7 +5,14 @@ export default defineNuxtConfig({
   colorMode: {
     classSuffix: '',
   },
-  svgo: {
-    autoImportPath: './assets/icons/'
+  app: {
+    head: {
+      script: [
+        {
+          src: "https://tally.so/widgets/embed.js",
+          async: true
+        }
+      ]
+    }
   }
 })
