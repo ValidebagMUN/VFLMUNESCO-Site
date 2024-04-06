@@ -1,6 +1,6 @@
 <template>
     <div>
-        <footer class="footer p-10 bg-base-100 text-[1rem] text-base-content dark:bg-neutral dark:text-secondary">
+        <footer class="footer px-10 py-8 bg-base-100 text-[1rem] text-neutral-content dark:bg-neutral dark:text-secondary">
             <div>
                 <NuxtImg src="/vmun-light.svg" alt="ValidebagMUN logo" class="h-28" v-show="isDark" />
                 <NuxtImg src="/vmun-dark.svg" alt="ValidebagMUN logo" class="h-28" v-show="!isDark" />
@@ -8,10 +8,10 @@
                 <span class="font-semibold text-neutral dark:text-base-200">Developed by <a target="_blank"
                         href="https://github.com/HexaBinary">HexaBinary</a>
                 </span>
-                <SimpleAnalyticsBadge />
+                <SimpleAnalyticsBadge :is-dark="isDark"/>
             </div>
             <div>
-                <NuxtLink><span class="footer-title">Conference</span></NuxtLink>
+                <a><span class="footer-title">Conference</span></a>
                 <NuxtLink to="/" class="link link-hover">Home</NuxtLink>
                 <NuxtLink to="/apply/" class="link link-hover">Apply</NuxtLink>
                 <NuxtLink to="/team/secretariat/" class="link link-hover">Secretariat</NuxtLink>
@@ -29,7 +29,7 @@
                 <NuxtLink to="/committees/unodc/" class="link link-hover">UNODC</NuxtLink>
             </div>
             <div>
-                <NuxtLink><span class="footer-title">Legal</span></NuxtLink>
+                <a><span class="footer-title">Legal</span></a>
                 <NuxtLink to="/legal/termsandconditions/" class="link link-hover">Terms and Conditions</NuxtLink>
                 <NuxtLink to="/legal/privacypolicy/" class="link link-hover">Privacy policy</NuxtLink>
             </div>
