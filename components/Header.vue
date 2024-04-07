@@ -41,7 +41,7 @@
 
             <NuxtImg src="/vmun-light.svg" alt="ValidebagMUN logo" class="h-16 ml-1 hover:animate-pulse" v-show="isDark" />
             <NuxtImg src="/vmun-dark.svg" alt="ValidebagMUN logo" class="h-16 ml-1 hover:animate-pulse" v-show="!isDark" />
-            <NuxtLink id="logo" class="btn btn-ghost text-2xl mx-0 px-1.5" to="/">ValidebağMUN</NuxtLink>
+            <NuxtLink id="logo" class="btn btn-ghost text-2xl mx-0 px-1.5 max-sm:hidden" to="/">ValidebağMUN</NuxtLink>
         </div>
         <div class="hidden navbar-center lg:flex">
             <ul class="px-1 menu menu-horizontal">

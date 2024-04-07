@@ -13,7 +13,7 @@
                     <h3 v-for="item in agenda" class="text-xl font-medium">Agenda Item{{ agenda.length > 1 ? ' ' +
                         (agenda.indexOf(item) + 1) : ''}}: <span class="text-lg">{{ item }}</span></h3>
                 </div>
-                <div class="divider divider-neutral"></div>
+                <div class="divider divider-neutral dark:divider-accent"></div>
                 <p class="whitespace-pre-line">{{ text }}</p>
                 <hr v-if="asg || chair" class="w-[60vw]">
                 <div class="flex my-4 justify-between text-xl max-w-[60vw]">
