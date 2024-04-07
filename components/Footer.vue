@@ -22,7 +22,7 @@
                 <NuxtLink to="/contact/" class="link link-hover">Contact Us</NuxtLink>
             </div>
             <div>
-                <NuxtLink to="/committees/"><span class="footer-title">Committees</span></NuxtLink>
+                <a><span class="footer-title">Committees</span></a>
                 <NuxtLink to="/committees/unga/" class="link link-hover">UNGA</NuxtLink>
                 <NuxtLink to="/committees/unsc/" class="link link-hover">UNSC</NuxtLink>
                 <NuxtLink to="/committees/ecosoc/" class="link link-hover">ECOSOC</NuxtLink>

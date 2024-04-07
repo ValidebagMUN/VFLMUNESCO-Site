@@ -4,6 +4,6 @@
 
 @layer base {
     body {
-        @apply bg-secondary-content dark:bg-neutral-content
+        @apply bg-secondary dark:bg-neutral-content
     }
 }

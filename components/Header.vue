@@ -11,15 +11,31 @@
                 </div>
                 <ul tabindex="0"
                     class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                    <li><a>Item 1</a></li>
                     <li>
-                        <a>Parent</a>
+                        <a>Our Team</a>
                         <ul class="p-2">
-                            <li><a>Submenu 1</a></li>
-                            <li><a>Submenu 2</a></li>
+                            <li><NuxtLink to="/team/secretariat">Secretariat</NuxtLink></li>
+                            <li><NuxtLink to="/team/directorate">Directorate</NuxtLink></li>
                         </ul>
                     </li>
-                    <li><a>Item 3</a></li>
+                    <li>
+                        <a>Committees</a>
+                        <ul class="p-2">
+                            <li><NuxtLink to="/committees/unodc">UNODC: CND</NuxtLink></li>
+                            <li><NuxtLink to="/committees/ecosoc">ECOSOC</NuxtLink></li>
+                            <li><NuxtLink to="/committees/unga">UNGA</NuxtLink></li>
+                            <li><NuxtLink to="/committees/unsc">UNSC</NuxtLink></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a>About</a>
+                        <ul class="p-2">
+                            <li><NuxtLink to="/conference/venue">Venue</NuxtLink></li>
+                            <li><NuxtLink to="/conference/schedule">Schedule</NuxtLink></li>
+                        </ul>
+                    </li>
+                    <li><NuxtLink to="/faq">FAQ</NuxtLink></li>
+                    <li><NuxtLink to="/contact">Contact</NuxtLink></li>
                 </ul>
             </div>
 
@@ -29,13 +45,6 @@
         </div>
         <div class="hidden navbar-center lg:flex">
             <ul class="px-1 menu menu-horizontal">
-                <div class="dropdown dropdown-hover">
-                    <div tabindex="0" role="button" class="m-1 mb-0 text-lg btn btn-ghost no-animation">About</div>
-                    <ul tabindex="0" class="dropdown-content z-[1] menu p-2 bg-base-100 rounded-box w-32 font-semibold">
-                        <li><NuxtLink to="/conference/venue">Venue</NuxtLink></li>
-                        <li><NuxtLink to="/conference/schedule">Schedule</NuxtLink></li>
-                    </ul>
-                </div>
                 <div class="dropdown dropdown-hover">
                     <div tabindex="0" role="button" class="m-1 mb-0 text-lg btn btn-ghost no-animation">Our Team</div>
                     <ul tabindex="0" class="dropdown-content z-[1] menu p-2 bg-base-100 rounded-box w-32 font-semibold">
@@ -52,12 +61,19 @@
                         <li><NuxtLink to="/committees/unsc">UNSC</NuxtLink></li>
                     </ul>
                 </div>
+                <div class="dropdown dropdown-hover">
+                    <div tabindex="0" role="button" class="m-1 mb-0 text-lg btn btn-ghost no-animation">About</div>
+                    <ul tabindex="0" class="dropdown-content z-[1] menu p-2 bg-base-100 rounded-box w-32 font-semibold">
+                        <li><NuxtLink to="/conference/venue">Venue</NuxtLink></li>
+                        <li><NuxtLink to="/conference/schedule">Schedule</NuxtLink></li>
+                    </ul>
+                </div>
                 <NuxtLink tabindex="0" role="button" class="m-1 text-lg btn btn-ghost" to="/faq">FAQ</NuxtLink>
                 <NuxtLink tabindex="0" role="button" class="m-1 text-lg btn btn-ghost" to="/contact">Contact</NuxtLink>
             </ul>
         </div>
         <div class="mr-1 navbar-end">
-            <NuxtLink id="applyButton" tabindex="0" role="button" to="/apply" class="text-secondary btn btn-ghost bg-primary dark:bg-accent-content dark:text-secondary hover:bg-accent">Apply Now</NuxtLink>
+            <NuxtLink id="applyButton" tabindex="0" role="button" to="/apply" class="text-secondary btn btn-ghost bg-primary dark:bg-primary dark:text-secondary hover:bg-accent">Apply Now</NuxtLink>
         </div>
     </div>
 </template>
@@ -83,6 +99,6 @@ const props = defineProps({
     @apply dark:hover:bg-inherit
 }
 #applyButton {
-    @apply dark:hover:bg-primary
+    @apply dark:hover:bg-accent-content
 }
 </style>
