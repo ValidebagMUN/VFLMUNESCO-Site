@@ -1,5 +1,5 @@
 <template>
-    <Title>TBA - ValidebağMUN</Title>
+    <Title>TBA</Title>
     <div class="hero text-neutral dark:text-base-100">
         <div class="text-center hero-content">
             <div class="max-w-md">

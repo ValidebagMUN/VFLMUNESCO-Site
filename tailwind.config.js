@@ -9,16 +9,27 @@ export default {
   daisyui: {
     themes: [
       {
-        vmun: {
+        light: {
           "primary": "#2E4165",
-          "primary-content": "#778DA9",
-          "secondary": "#E0E1DD",
-          "secondary-content": "#888C7D",
-          "accent": "#BC7F38",
-          "accent-content": "#5D1C25",
-          "neutral": "#0D1B2A",
-          "neutral-content": "#1B263B",
-          "base-100": "#EDF1F7"
+          "primary-content": "#0D1B2A",
+          "secondary": "#5D1C25",
+          "secondary-content": "#511820",
+          "accent": "#417854",
+          // "accent-content": "",
+          "neutral": "#13273E",
+          "neutral-content": "#E0E1DD",
+          "base-100": "#EDF1F7",
+          // "base-200": "",
+          // "base-300": "",
+          // "base-content": "",
+          "info": "#597BA5",
+          // "info-content": "",
+          "success": "#29895C",
+          // "success-content": "",
+          "warning": "#bc7f38",
+          // "warning-content": "",
+          "error": "#892936",
+          // "error-content": ""
         }
       }
     ]

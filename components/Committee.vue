@@ -1,11 +1,18 @@
 <template>
     <Head>
-        <Title>{{ slug.toUpperCase() }} - ValidebağMUN</Title>
+        <Title>{{ slug.toUpperCase() }}</Title>
     </Head>
-    <div class="pt-12 hero text-neutral dark:text-base-100">
+    <div class="pt-12 hero text-neutral dark:text-neutral-content">
         <div class="flex-col hero-content lg:flex-row-reverse">
-            <NuxtImg v-if="image" :src="image"
-                class="max-w-sm rounded-lg shadow-2xl bg-base-100 dark:bg-base-300" />
+            <Suspense>
+                <template #default>
+                    <NuxtImg preload v-if="image" :src="image"
+                class="max-w-sm rounded-lg shadow-2xl bg-base-100" />
+                </template>
+                <template #fallback>
+                    <div class="max-w-sm rounded-lg skeleton"></div>
+                </template>
+            </Suspense>
             <div>
                 <h1 class="mb-3 text-5xl font-bold uppercase">{{ slug }}</h1>
                 <h2 class="text-3xl">{{ name }}</h2>
@@ -13,7 +20,7 @@
                     <h3 v-for="item in agenda" class="text-xl font-medium">Agenda Item{{ agenda.length > 1 ? ' ' +
                         (agenda.indexOf(item) + 1) : ''}}: <span class="text-lg">{{ item }}</span></h3>
                 </div>
-                <div class="divider divider-neutral dark:divider-accent"></div>
+                <div class="divider divider-neutral dark:divider-primary"></div>
                 <p class="whitespace-pre-line">{{ text }}</p>
                 <hr v-if="asg || chair" class="w-[60vw]">
                 <div class="flex my-4 justify-between text-xl max-w-[60vw]">
