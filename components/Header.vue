@@ -88,6 +88,9 @@ const props = defineProps({
 </script>
 
 <style scoped>
+a:focus {
+    @apply text-neutral dark:text-neutral-content
+}
 .btn-ghost {
     @apply dark:hover:bg-secondary
 }

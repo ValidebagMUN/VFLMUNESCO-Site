@@ -4,8 +4,15 @@
     </Head>
     <div class="pt-12 hero text-neutral dark:text-neutral-content">
         <div class="flex-col hero-content lg:flex-row-reverse">
-            <NuxtImg preload v-if="image" :src="image"
-                class="max-w-sm rounded-lg shadow-2xl bg-base-100" placeholder />
+            <Suspense>
+                <template #default>
+                    <NuxtImg preload v-if="image" :src="image"
+                class="max-w-sm rounded-lg shadow-2xl bg-base-100" />
+                </template>
+                <template #fallback>
+                    <div class="max-w-sm rounded-lg skeleton"></div>
+                </template>
+            </Suspense>
             <div>
                 <h1 class="mb-3 text-5xl font-bold uppercase">{{ slug }}</h1>
                 <h2 class="text-3xl">{{ name }}</h2>
