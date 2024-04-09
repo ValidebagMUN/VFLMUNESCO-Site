@@ -6,7 +6,7 @@
         </Head>
         <Header :is-dark="isDark" />
         <div class="min-h-[89vh] bg-base-100 dark:bg-neutral">
-            <slot />
+            <NuxtPage />
         </div>
         <Footer :is-dark="isDark" />
     </div>

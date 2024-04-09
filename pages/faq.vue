@@ -1,6 +1,7 @@
 <template>
+    <Title>FAQ</Title>
     <div>
-        <TBA />
+        
     </div>
 </template>
 
@@ -8,6 +9,4 @@
 
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

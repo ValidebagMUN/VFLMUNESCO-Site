@@ -1,6 +1,6 @@
 <template>
     <Head>
-        <Title>{{ slug.toUpperCase() }} - ValidebağMUN</Title>
+        <Title>{{ slug.toUpperCase() }}</Title>
     </Head>
     <div class="pt-12 hero text-neutral dark:text-neutral-content">
         <div class="flex-col hero-content lg:flex-row-reverse">
