@@ -5,7 +5,7 @@
             <Meta name="canonical" content="https://www.validebagmun.org/"></Meta>
         </Head>
         <Header :is-dark="isDark" />
-        <div class="min-h-[89vh]">
+        <div class="min-h-[89vh] bg-base-100 dark:bg-neutral">
             <slot />
         </div>
         <Footer :is-dark="isDark" />
@@ -20,11 +20,10 @@ const favicon = computed(() => isDark.value ? '/vmun-white.svg' : '/vmun-black.s
 
 useHead({
     htmlAttrs: {
-        'data-theme': 'vmun',
+        class: isDark.value ? "bg-primary-content" : "bg-neutral-content"
     }
 })
 </script>
 
 <style scoped>
-
 </style>

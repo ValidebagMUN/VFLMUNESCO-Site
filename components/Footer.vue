@@ -1,6 +1,6 @@
 <template>
     <div>
-        <footer class="footer px-10 py-8 bg-base-100 text-[1rem] text-neutral-content dark:bg-neutral dark:text-secondary">
+        <footer class="footer px-10 py-8 bg-neutral-content text-[1rem] text-neutral dark:bg-primary-content dark:text-neutral-content">
             <div>
                 <NuxtImg src="/vmun-light.svg" alt="ValidebagMUN logo" class="h-28" v-show="isDark" />
                 <NuxtImg src="/vmun-dark.svg" alt="ValidebagMUN logo" class="h-28" v-show="!isDark" />
@@ -50,7 +50,7 @@
                             </g>
                         </svg>
                     </a>
-                    <a aria-label="Our MUN framework, VMUN's Twitter account" target="_blank" href="https://twitter.com/VMUN_">
+                    <!-- <a aria-label="Our MUN framework, VMUN's Twitter account" target="_blank" href="https://twitter.com/VMUN_">
                         <svg type="color-fill-current" width="28px" height="28px" viewBox="0 0 20 20" x="0px" y="0px"
                             class="fill-current">
                             <g>
@@ -59,7 +59,7 @@
                                 </path>
                             </g>
                         </svg>
-                    </a>
+                    </a> -->
                     <a aria-label="Our Club's Github Organization" target="_blank" href="https://github.com/ValidebagMUN">
                         <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="28" height="28"
                             viewBox="0 0 24 24">
@@ -84,7 +84,7 @@ const props = defineProps({
 
 <style scoped>
 .footer-title {
-    opacity: 0.75;
-    @apply text-neutral dark:text-primary-content
+    opacity: 0.8;
+    @apply text-primary-content dark:text-neutral-content
 }
 </style>

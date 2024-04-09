@@ -1,5 +1,5 @@
 <template>
-    <div class="navbar bg-base-100 dark:bg-neutral dark:text-secondary">
+    <div class="navbar bg-neutral-content text-neutral dark:bg-primary-content dark:text-neutral-content">
         <div class="navbar-start">
             <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -10,7 +10,7 @@
                     </svg>
                 </div>
                 <ul tabindex="0"
-                    class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52">
                     <li>
                         <a>Our Team</a>
                         <ul class="p-2">
@@ -47,14 +47,14 @@
             <ul class="px-1 menu menu-horizontal">
                 <div class="dropdown dropdown-hover">
                     <div tabindex="0" role="button" class="m-1 mb-0 text-lg btn btn-ghost no-animation">Our Team</div>
-                    <ul tabindex="0" class="dropdown-content z-[1] menu p-2 bg-base-100 rounded-box w-32 font-semibold">
+                    <ul tabindex="0" class="dropdown-content z-[1] menu p-2 rounded-box w-32 font-semibold">
                         <li><NuxtLink to="/team/secretariat">Secretariat</NuxtLink></li>
                         <li><NuxtLink to="/team/directorate">Directorate</NuxtLink></li>
                     </ul>
                 </div>
                 <div class="dropdown dropdown-hover">
                     <div tabindex="0" role="button" class="m-1 mb-0 text-lg btn btn-ghost no-animation">Committees</div>
-                    <ul tabindex="0" class="dropdown-content z-[1] menu p-2 bg-base-100 rounded-box w-36 font-semibold">
+                    <ul tabindex="0" class="dropdown-content z-[1] menu p-2 rounded-box w-36 font-semibold">
                         <li><NuxtLink to="/committees/unodc">UNODC: CND</NuxtLink></li>
                         <li><NuxtLink to="/committees/ecosoc">ECOSOC</NuxtLink></li>
                         <li><NuxtLink to="/committees/unga">UNGA</NuxtLink></li>
@@ -63,7 +63,7 @@
                 </div>
                 <div class="dropdown dropdown-hover">
                     <div tabindex="0" role="button" class="m-1 mb-0 text-lg btn btn-ghost no-animation">About</div>
-                    <ul tabindex="0" class="dropdown-content z-[1] menu p-2 bg-base-100 rounded-box w-32 font-semibold">
+                    <ul tabindex="0" class="dropdown-content z-[1] menu p-2 rounded-box w-32 font-semibold">
                         <li><NuxtLink to="/conference/venue">Venue</NuxtLink></li>
                         <li><NuxtLink to="/conference/schedule">Schedule</NuxtLink></li>
                     </ul>
@@ -73,7 +73,7 @@
             </ul>
         </div>
         <div class="mr-1 navbar-end">
-            <NuxtLink id="applyButton" tabindex="0" role="button" to="/apply" class="text-secondary btn btn-ghost bg-primary dark:bg-primary dark:text-secondary hover:bg-accent">Apply Now</NuxtLink>
+            <NuxtLink tabindex="0" role="button" to="/apply" class="btn btn-ghost bg-primary text-base-100 hover:bg-neutral dark:hover:bg-secondary">Apply Now</NuxtLink>
         </div>
     </div>
 </template>
@@ -89,16 +89,12 @@ const props = defineProps({
 
 <style scoped>
 .btn-ghost {
-    @apply dark:hover:bg-accent-content
+    @apply dark:hover:bg-secondary
 }
 .dropdown-content {
-    @apply dark:bg-accent-content
-
+    @apply bg-neutral-content dark:bg-secondary
 }
 #logo {
-    @apply dark:hover:bg-inherit
-}
-#applyButton {
-    @apply dark:hover:bg-accent-content
+    @apply hover:bg-inherit
 }
 </style>
