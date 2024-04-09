@@ -32,7 +32,6 @@ export default defineNuxtConfig({
     name: "ValidebağMUN",
     description: "Validebağ Model United Nations Conference",
     defaultLocale: "en",
-    indexable: false,
   },
   robots: {
     disallow: [
