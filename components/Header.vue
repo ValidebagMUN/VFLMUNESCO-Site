@@ -21,11 +21,13 @@
                     <li>
                         <a>Committees</a>
                         <ul class="p-2">
-                            <li><NuxtLink to="/committees/ep">European Parliament</NuxtLink></li>
+                            <li><NuxtLink to="/committees/ep">EP</NuxtLink></li>
                             <li><NuxtLink to="/committees/unodc">UNODC: CND</NuxtLink></li>
                             <li><NuxtLink to="/committees/ecosoc">ECOSOC</NuxtLink></li>
                             <li><NuxtLink to="/committees/unga">UNGA</NuxtLink></li>
                             <li><NuxtLink to="/committees/unsc">UNSC</NuxtLink></li>
+                            <li><NuxtLink to="/committees/jcc">JCC</NuxtLink></li>
+                            <li><NuxtLink to="/committees/hcc">HCC</NuxtLink></li>
                         </ul>
                     </li>
                     <li>
@@ -61,6 +63,8 @@
                         <li><NuxtLink to="/committees/ecosoc">ECOSOC</NuxtLink></li>
                         <li><NuxtLink to="/committees/unga">UNGA</NuxtLink></li>
                         <li><NuxtLink to="/committees/unsc">UNSC</NuxtLink></li>
+                        <li><NuxtLink to="/committees/jcc">JCC</NuxtLink></li>
+                        <li><NuxtLink to="/committees/hcc">HCC</NuxtLink></li>
                     </ul>
                 </div>
                 <div class="dropdown dropdown-hover">
