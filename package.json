@@ -13,6 +13,7 @@
     "@nuxtjs/color-mode": "^3.3.3",
     "@nuxtjs/seo": "2.0.0-rc.10",
     "@nuxtjs/tailwindcss": "^6.11.4",
+    "@vercel/speed-insights": "^1.0.10",
     "daisyui": "latest",
     "nuxt": "^3.11.1",
     "nuxt-typed-router": "^3.6.2",
