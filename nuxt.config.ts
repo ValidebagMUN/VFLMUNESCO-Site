@@ -24,6 +24,15 @@ export default defineNuxtConfig({
           src: "https://tally.so/widgets/embed.js",
           async: true
         }
+      ],
+      link: [
+        { rel: "prefetch", href: "/img/ep.png" },
+        { rel: "prefetch", href: "/img/unodc.png" },
+        { rel: "prefetch", href: "/img/ecosoc.png" },
+        { rel: "prefetch", href: "/img/unga.png" },
+        { rel: "prefetch", href: "/img/unsc.png" },
+        { rel: "prefetch", href: "/img/jcc.png" },
+        { rel: "prefetch", href: "/img/hcc.png" }
       ]
     }
   },
