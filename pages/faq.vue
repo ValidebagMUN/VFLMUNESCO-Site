@@ -77,7 +77,7 @@
         <div class="border collapse collapse-plus join-item">
             <input type="radio" name="faq-accordion" />
             <div class="text-xl font-medium collapse-title">
-                Will ValidebağMUN provide accomodation for applicants from outside Istabul?
+                Will ValidebağMUN provide accomodation for applicants from outside Istanbul?
             </div>
             <div class="collapse-content">
                 <p>Unfortunately, we cannot provide accomodation for any applicants. It is the responsibility of the applicant.</p>
