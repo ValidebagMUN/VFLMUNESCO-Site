@@ -1,6 +1,6 @@
 <template>
     <Title>FAQ</Title>
-    <div class="flex-col w-full rounded join join-vertical text-neutral dark:text-neutral-content">
+    <div class="flex-col w-full rounded-none join join-vertical text-neutral dark:text-neutral-content">
         <h1 class="mx-8 text-5xl font-bold my-14">Frequently Asked Questions</h1>
         <div class="border collapse collapse-plus join-item">
             <input type="radio" name="faq-accordion" />
@@ -53,7 +53,7 @@
                 What is the schedule of ValidebağMUN?
             </div>
             <div class="collapse-content">
-                <p>The scheduled date of this years edition of ValidebağMUN is 21-24 June 2024. You may find our schedule <NuxtLink to="/schedule" class="link">here</NuxtLink>.</p>
+                <p>The scheduled date of this years edition of ValidebağMUN is 20-22 June 2024. You may find our schedule <NuxtLink to="/schedule" class="link">here</NuxtLink>.</p>
             </div>
         </div>
         <div class="border collapse collapse-plus join-item">
@@ -92,6 +92,6 @@
 
 <style scoped>
 .collapse {
-    @apply border-neutral dark:border-neutral-content
+    @apply border-neutral dark:border-info
 }
 </style>
