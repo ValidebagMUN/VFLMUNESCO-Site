@@ -4,7 +4,7 @@
             <div>
                 <NuxtImg src="/vmun-light.svg" alt="ValidebagMUN logo" class="h-28" v-show="isDark" />
                 <NuxtImg src="/vmun-dark.svg" alt="ValidebagMUN logo" class="h-28" v-show="!isDark" />
-                <p>Validebağ Science High School<br />Model United Nations Club</p>
+                <p>Validebağ Science High School<br />Model United Nations Club <br />Copyright &copy; 2024</p>
                 <span class="font-semibold text-neutral dark:text-base-200">Developed by <a target="_blank"
                         href="https://github.com/HexaBinary">HexaBinary</a>
                 </span>
@@ -16,8 +16,8 @@
                 <NuxtLink to="/apply/" class="link link-hover">Apply</NuxtLink>
                 <NuxtLink to="/team/secretariat/" class="link link-hover">Secretariat</NuxtLink>
                 <NuxtLink to="/team/directorate/" class="link link-hover">Directorate</NuxtLink>
-                <NuxtLink to="/conference/venue/" class="link link-hover">Venue</NuxtLink>
-                <NuxtLink to="/conference/schedule/" class="link link-hover">Schedule</NuxtLink>
+                <NuxtLink to="/venue/" class="link link-hover">Venue</NuxtLink>
+                <NuxtLink to="/schedule/" class="link link-hover">Schedule</NuxtLink>
                 <NuxtLink to="/faq/" class="link link-hover">FAQ</NuxtLink>
                 <NuxtLink to="/contact/" class="link link-hover">Contact Us</NuxtLink>
             </div>
