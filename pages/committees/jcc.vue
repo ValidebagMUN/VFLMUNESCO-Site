@@ -1,11 +1,19 @@
 <template>
     <div>
-
+        <Committee v-bind="committee" />
     </div>
 </template>
 
 <script setup lang="ts">
+const committee = {
+    slug: 'jcc',
+    name: 'Joint Crisis Committee',
+    agenda: [
 
+    ],
+    text: '',
+    image: '/img/jcc.png'
+}
 </script>
 
 <style scoped>

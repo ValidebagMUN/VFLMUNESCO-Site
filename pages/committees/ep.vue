@@ -12,7 +12,7 @@ const committee = {
         ''
     ],
     text: '',
-    image: ''
+    image: '/img/ep.png'
 }
 </script>
 
