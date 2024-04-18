@@ -21,6 +21,7 @@
                     <li>
                         <a>Committees</a>
                         <ul class="p-2">
+                            <li><NuxtLink to="/committees/ep">European Parliament</NuxtLink></li>
                             <li><NuxtLink to="/committees/unodc">UNODC: CND</NuxtLink></li>
                             <li><NuxtLink to="/committees/ecosoc">ECOSOC</NuxtLink></li>
                             <li><NuxtLink to="/committees/unga">UNGA</NuxtLink></li>
@@ -55,6 +56,7 @@
                 <div class="dropdown dropdown-hover">
                     <div tabindex="0" role="button" class="m-1 mb-0 text-lg btn btn-ghost no-animation">Committees</div>
                     <ul tabindex="0" class="dropdown-content z-[1] menu p-2 rounded-box w-36 font-semibold">
+                        <li><NuxtLink to="/committees/ep">European Parliament</NuxtLink></li>
                         <li><NuxtLink to="/committees/unodc">UNODC: CND</NuxtLink></li>
                         <li><NuxtLink to="/committees/ecosoc">ECOSOC</NuxtLink></li>
                         <li><NuxtLink to="/committees/unga">UNGA</NuxtLink></li>

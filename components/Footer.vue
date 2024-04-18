@@ -26,7 +26,8 @@
                 <NuxtLink to="/committees/unga/" class="link link-hover">UNGA</NuxtLink>
                 <NuxtLink to="/committees/unsc/" class="link link-hover">UNSC</NuxtLink>
                 <NuxtLink to="/committees/ecosoc/" class="link link-hover">ECOSOC</NuxtLink>
-                <NuxtLink to="/committees/unodc/" class="link link-hover">UNODC</NuxtLink>
+                <NuxtLink to="/committees/unodc/" class="link link-hover">UNODC: CND</NuxtLink>
+                <NuxtLink to="/committees/ep/" class="link link-hover">European Parliament</NuxtLink>
             </div>
             <div>
                 <a><span class="footer-title">Legal</span></a>
