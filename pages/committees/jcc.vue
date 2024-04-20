@@ -9,7 +9,7 @@ const committee = {
     slug: 'jcc',
     name: 'Joint Crisis Committee',
     agenda: [
-
+        'Turkish Local Elections of 1930'
     ],
     text: '',
     image: '/img/jcc.png'

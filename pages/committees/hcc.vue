@@ -9,7 +9,7 @@ const committee = {
     slug: 'hcc',
     name: 'Historical Crisis Committee',
     agenda: [
-
+        'Şimal Yıldızı - The Turkish Brigade in the Korean War',
     ],
     text: '',
     image: '/img/hcc.png'
