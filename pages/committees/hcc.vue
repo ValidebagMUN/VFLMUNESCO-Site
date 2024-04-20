@@ -6,10 +6,10 @@
 
 <script setup lang="ts">
 const committee = {
-    slug: 'hcc',
+    slug: 'HCC: Şimal Yıldızı',
     name: 'Historical Crisis Committee',
     agenda: [
-        'Şimal Yıldızı - The Turkish Brigade in the Korean War',
+        'The Turkish Brigade in the Korean War',
     ],
     text: '',
     image: '/img/hcc.png'

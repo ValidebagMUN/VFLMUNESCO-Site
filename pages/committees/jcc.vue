@@ -6,7 +6,7 @@
 
 <script setup lang="ts">
 const committee = {
-    slug: 'jcc',
+    slug: 'JCC',
     name: 'Joint Crisis Committee',
     agenda: [
         'Turkish Local Elections of 1930'
