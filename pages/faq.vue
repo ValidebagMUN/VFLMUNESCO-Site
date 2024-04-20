@@ -92,6 +92,6 @@
 
 <style scoped>
 .collapse {
-    @apply border-neutral dark:border-info
+    @apply border-neutral dark:border-info z-0
 }
 </style>
