@@ -1,5 +1,4 @@
 <template>
-    <Title>Contact - ValidebağMUN</Title>
     <div class="pt-8 hero text-neutral dark:text-neutral-content">
         <div class="flex-col hero-content lg:flex-row">
             <div>
