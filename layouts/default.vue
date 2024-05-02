@@ -3,7 +3,9 @@
         <Head>
             <Link rel="icon" type="image/svg+xml" :href="favicon" />
             <Meta name="canonical" content="https://www.validebagmun.org/"></Meta>
+            <Meta name="keywords" contens="validebağ, validebağmun, mun, model united nations, high school, united nations"></Meta>
         </Head>
+        <SpeedInsights />
         <Header :is-dark="isDark" />
         <div class="min-h-[89vh] bg-base-100 dark:bg-neutral">
             <NuxtPage />
@@ -13,6 +15,8 @@
 </template>
 
 <script setup lang="ts">
+import { SpeedInsights } from "@vercel/speed-insights/nuxt"
+
 const colorMode = useColorMode()
 
 const isDark = computed(() => colorMode.value === 'dark')

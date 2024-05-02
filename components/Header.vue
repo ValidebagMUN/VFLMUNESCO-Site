@@ -21,17 +21,20 @@
                     <li>
                         <a>Committees</a>
                         <ul class="p-2">
+                            <li><NuxtLink to="/committees/ep">EP</NuxtLink></li>
                             <li><NuxtLink to="/committees/unodc">UNODC: CND</NuxtLink></li>
                             <li><NuxtLink to="/committees/ecosoc">ECOSOC</NuxtLink></li>
                             <li><NuxtLink to="/committees/unga">UNGA</NuxtLink></li>
                             <li><NuxtLink to="/committees/unsc">UNSC</NuxtLink></li>
+                            <li><NuxtLink to="/committees/jcc">JCC</NuxtLink></li>
+                            <li><NuxtLink to="/committees/hcc">HCC</NuxtLink></li>
                         </ul>
                     </li>
                     <li>
                         <a>About</a>
                         <ul class="p-2">
-                            <li><NuxtLink to="/conference/venue">Venue</NuxtLink></li>
-                            <li><NuxtLink to="/conference/schedule">Schedule</NuxtLink></li>
+                            <li><NuxtLink to="/venue">Venue</NuxtLink></li>
+                            <li><NuxtLink to="/schedule">Schedule</NuxtLink></li>
                         </ul>
                     </li>
                     <li><NuxtLink to="/faq">FAQ</NuxtLink></li>
@@ -55,17 +58,20 @@
                 <div class="dropdown dropdown-hover">
                     <div tabindex="0" role="button" class="m-1 mb-0 text-lg btn btn-ghost no-animation">Committees</div>
                     <ul tabindex="0" class="dropdown-content z-[1] menu p-2 rounded-box w-36 font-semibold">
+                        <li><NuxtLink to="/committees/ep">EP</NuxtLink></li>
                         <li><NuxtLink to="/committees/unodc">UNODC: CND</NuxtLink></li>
                         <li><NuxtLink to="/committees/ecosoc">ECOSOC</NuxtLink></li>
                         <li><NuxtLink to="/committees/unga">UNGA</NuxtLink></li>
                         <li><NuxtLink to="/committees/unsc">UNSC</NuxtLink></li>
+                        <li><NuxtLink to="/committees/jcc">JCC</NuxtLink></li>
+                        <li><NuxtLink to="/committees/hcc">HCC</NuxtLink></li>
                     </ul>
                 </div>
                 <div class="dropdown dropdown-hover">
                     <div tabindex="0" role="button" class="m-1 mb-0 text-lg btn btn-ghost no-animation">About</div>
                     <ul tabindex="0" class="dropdown-content z-[1] menu p-2 rounded-box w-32 font-semibold">
-                        <li><NuxtLink to="/conference/venue">Venue</NuxtLink></li>
-                        <li><NuxtLink to="/conference/schedule">Schedule</NuxtLink></li>
+                        <li><NuxtLink to="/venue">Venue</NuxtLink></li>
+                        <li><NuxtLink to="/schedule">Schedule</NuxtLink></li>
                     </ul>
                 </div>
                 <NuxtLink tabindex="0" role="button" class="m-1 text-lg btn btn-ghost" to="/faq">FAQ</NuxtLink>

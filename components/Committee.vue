@@ -1,24 +1,17 @@
 <template>
+
     <Head>
         <Title>{{ slug.toUpperCase() }}</Title>
     </Head>
     <div class="pt-12 hero text-neutral dark:text-neutral-content">
         <div class="flex-col hero-content lg:flex-row-reverse">
-            <Suspense>
-                <template #default>
-                    <NuxtImg preload v-if="image" :src="image"
-                class="max-w-sm rounded-lg shadow-2xl bg-base-100" />
-                </template>
-                <template #fallback>
-                    <div class="max-w-sm rounded-lg skeleton"></div>
-                </template>
-            </Suspense>
+            <NuxtImg preload quality="80" v-if="image" :src="image" class="max-w-sm rounded-lg shadow-2xl bg-base-100" />
             <div>
-                <h1 class="mb-3 text-5xl font-bold uppercase">{{ slug }}</h1>
+                <h1 class="mb-3 text-5xl font-bold">{{ slug.includes("CC") ? slug : slug.toUpperCase() }}</h1>
                 <h2 class="text-3xl">{{ name }}</h2>
                 <div class="mt-2 mb-4">
                     <h3 v-for="item in agenda" class="text-xl font-medium">Agenda Item{{ agenda.length > 1 ? ' ' +
-                        (agenda.indexOf(item) + 1) : ''}}: <span class="text-lg">{{ item }}</span></h3>
+                        (agenda.indexOf(item) + 1) : '' }}: <span class="text-lg">{{ item }}</span></h3>
                 </div>
                 <div class="divider divider-neutral dark:divider-primary"></div>
                 <p class="whitespace-pre-line">{{ text }}</p>
