@@ -1,7 +1,5 @@
 <template>
-    <div>
-
-    </div>
+    <TBA />
 </template>
 
 <script setup lang="ts">

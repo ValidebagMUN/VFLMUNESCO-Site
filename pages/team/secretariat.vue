@@ -5,15 +5,15 @@
                 <h1 class="my-10 text-5xl font-bold text-center">The Secretariat</h1>
                 <div class="container flex items-center justify-center my-10">
                     <div class="card">
-                        <figure><NuxtImg placeholder src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                                alt="Shoes" /></figure>
+                        <figure><NuxtImg placeholder src=""
+                                alt="" /></figure>
                         <div class="card-body">
                             <h2 class="card-title">Ege Ender Anaklı</h2>
                             <p>Deputy Secretary-General</p>
                         </div>
                     </div>
                     <div class="card">
-                        <figure><NuxtImg placeholder src="/img/team/secretariat/unholy.jpg" width="320" height="250" fit="cover"
+                        <figure><NuxtImg placeholder src="" width="320" height="250" fit="cover"
                                 alt="Hakan Rüzgar Kocaoğlu" /></figure>
                         <div class="card-body">
                             <h2 class="card-title">Hakan Rüzgar Kocaoğlu</h2>
@@ -21,8 +21,8 @@
                         </div>
                     </div>
                     <div class="card">
-                        <figure><NuxtImg placeholder src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                                alt="Shoes" /></figure>
+                        <figure><NuxtImg placeholder src=""
+                                alt="" /></figure>
                         <div class="card-body">
                             <h2 class="card-title">Gökalp Gördük</h2>
                             <p>Deputy Secretary-General</p>
@@ -31,24 +31,24 @@
                 </div>
                 <div class="container flex items-center justify-center my-10">
                     <div class="card">
-                        <figure><NuxtImg placeholder src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                                alt="Shoes" /></figure>
+                        <figure><NuxtImg placeholder src=""
+                                alt="" /></figure>
                         <div class="card-body">
                             <h2 class="card-title">God Knows Who</h2>
                             <p>Under-Secretary-General, <br /> Principal Organs</p>
                         </div>
                     </div>
                     <div class="card">
-                        <figure><NuxtImg placeholder src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                                alt="Shoes" /></figure>
+                        <figure><NuxtImg placeholder src=""
+                                alt="" /></figure>
                         <div class="card-body">
                             <h2 class="card-title">Zeynep Rüya Özdemir</h2>
                             <p>Under-Secretary-General, <br /> Functional Commissions</p>
                         </div>
                     </div>
                     <div class="card">
-                        <figure><NuxtImg placeholder src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                                alt="Shoes" /></figure>
+                        <figure><NuxtImg placeholder src=""
+                                alt="" /></figure>
                         <div class="card-body">
                             <h2 class="card-title">Yiğit Kapusuz</h2>
                             <p>Under-Secretary-General, <br /> Historical Simulation</p>
