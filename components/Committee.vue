@@ -5,7 +5,7 @@
     </Head>
     <div class="pt-12 hero text-neutral dark:text-neutral-content">
         <div class="flex-col hero-content lg:flex-row-reverse">
-            <NuxtImg preload :placeholder="250" v-if="image" :src="image" class="max-w-sm rounded-lg shadow-2xl bg-base-100" />
+            <NuxtImg preload quality="80" v-if="image" :src="image" class="max-w-sm rounded-lg shadow-2xl bg-base-100" />
             <div>
                 <h1 class="mb-3 text-5xl font-bold">{{ slug.includes("CC") ? slug : slug.toUpperCase() }}</h1>
                 <h2 class="text-3xl">{{ name }}</h2>

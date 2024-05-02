@@ -1246,7 +1246,7 @@ packages:
       nuxt: ^3.9.0
       vite: '*'
     dependencies:
-      '@nuxt/kit': 3.11.1
+      '@nuxt/kit': 3.11.2
       '@nuxt/schema': 3.11.1
       execa: 7.2.0
       nuxt: 3.11.1(@unocss/reset@0.58.9)(floating-vue@5.2.2)(unocss@0.58.9)(vite@5.2.8)
@@ -4904,6 +4904,21 @@ packages:
       vue-resize: 2.0.0-alpha.1(vue@3.4.21)
     dev: false
 
+  /floating-vue@5.2.0(@nuxt/kit@3.11.2)(vue@3.4.21):
+    resolution: {integrity: sha512-CeApC0dUU8Mye6mjH3ZB7FXoUjIRduNuz8QW4nj3ZUweaFqv7PwxfN9klTuRQe9MeZXxbIHJHBTNl9t/bv+SUA==}
+    peerDependencies:
+      '@nuxt/kit': ^3.2.0
+      vue: ^3.2.0
+    peerDependenciesMeta:
+      '@nuxt/kit':
+        optional: true
+    dependencies:
+      '@floating-ui/dom': 1.1.1
+      '@nuxt/kit': 3.11.2
+      vue: 3.4.21
+      vue-resize: 2.0.0-alpha.1(vue@3.4.21)
+    dev: false
+
   /floating-vue@5.2.2(@nuxt/kit@3.11.1)(vue@3.4.21):
     resolution: {integrity: sha512-afW+h2CFafo+7Y9Lvw/xsqjaQlKLdJV7h1fCHfcYQ1C4SVMlu7OAekqWgu5d4SgvkBVU0pVpLlVsrSTBURFRkg==}
     peerDependencies:
@@ -6978,7 +6993,7 @@ packages:
   /nuxt-site-config-kit@2.2.7(vue@3.4.21):
     resolution: {integrity: sha512-d7lJchV7J8AFMZ1cscJ0WK4gWYPneGn1jzL7NOyk8X59KpxmJqhqKQF/eJhb1oG9HY1HE4GCa7xYi0Up9S4wRg==}
     dependencies:
-      '@nuxt/kit': 3.11.1
+      '@nuxt/kit': 3.11.2
       '@nuxt/schema': 3.11.1
       pkg-types: 1.0.3
       site-config-stack: 2.2.7(vue@3.4.21)
@@ -7035,9 +7050,9 @@ packages:
     dependencies:
       '@nuxt/devtools-kit': 1.1.5(nuxt@3.11.1)(vite@5.2.8)
       '@nuxt/devtools-ui-kit': 1.1.5(@nuxt/devtools@1.1.5)(@vue/compiler-core@3.4.21)(fuse.js@7.0.0)(nuxt@3.11.1)(postcss@8.4.38)(vite@5.2.8)(vue@3.4.21)(webpack@5.91.0)
-      '@nuxt/kit': 3.11.1
+      '@nuxt/kit': 3.11.2
       '@nuxt/schema': 3.11.1
-      floating-vue: 5.2.0(@nuxt/kit@3.11.1)(vue@3.4.21)
+      floating-vue: 5.2.0(@nuxt/kit@3.11.2)(vue@3.4.21)
       nuxt-site-config-kit: 2.2.7(vue@3.4.21)
       pathe: 1.1.2
       pkg-types: 1.0.3

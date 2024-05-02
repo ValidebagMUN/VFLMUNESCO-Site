@@ -2,11 +2,11 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
+    '@nuxtjs/seo',
     '@nuxtjs/color-mode',
     '@nuxtjs/tailwindcss',
     '@nuxt/image',
-    "nuxt-typed-router",
-    "@nuxtjs/seo"
+    'nuxt-typed-router'
   ],
   colorMode: {
     classSuffix: '',
@@ -43,6 +43,7 @@ export default defineNuxtConfig({
       "/maintenance",
       "/legal/privacypolicy",
       "/legal/termsandconditions",
+      "/img"
     ]
   },
   schemaOrg: {
