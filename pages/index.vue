@@ -4,7 +4,7 @@
             <div class="hero-overlay bg-opacity-80"></div>
             <div class="text-center hero-content text-neutral-content">
                 <div class="max-w-md">
-                    <h1 class="mb-5 text-5xl font-bold">Introducing ValidebağMUN</h1>
+                    <h1 class="pt-20 mb-5 text-5xl font-bold">Introducing ValidebağMUN</h1>
                     <div class="grid justify-center grid-flow-col gap-5 mb-2 text-center auto-cols-max">
                         <div class="flex flex-col">
                             <span class="font-mono text-5xl countdown">
@@ -35,15 +35,15 @@
             </div>
         </div>
         <div class="hero">
-
+            
         </div>
     </div>
 </template>
 
 <script setup lang="ts">
-const date = ref({ days: 0, hours: 0, minutes: 0, seconds: 0 });
+const date = ref({ days: 15, hours: 5, minutes: 19, seconds: 19 });
 onNuxtReady(() => {
-    const timer = setInterval(() => {
+    setInterval(() => {
         const eventStartTime = Date.now();
         const eventEndTime = new Date('2024-06-20 05:00:00Z');
         const duration = eventEndTime.valueOf() - eventStartTime.valueOf();
