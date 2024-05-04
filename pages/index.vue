@@ -36,7 +36,7 @@
         </div>
         <div class="min-h-[80vh] py-10 pt-20 mx-20 text-neutral dark:text-neutral-content">
             <h2 class="text-3xl font-bold">Letter from the Secretary-General</h2>
-            <div class="m-0 my-3 divider divider-primary dark:divider-info"></div>
+            <div class="m-0 my-3 divider divider-neutral dark:divider-primary"></div>
             <h3 class="mb-2 text-2xl font-bold">Dear Participants,</h3>
             <p class="text-xl">
             I as the Secretary-General, welcome you all to the first edition of Validebağ Science High School Model United Nations Conference. With a dedicated vision to portray and reflect the dynamics of the United Nations system and global politics, and a bold mission to ensure a remarkable experience to all of our participants; we are in a long journey of hardwork and dedication. In accordance with our academic preferences and organizational perfectionism we wish to create a nearly one-to-one diplomatic environment for students just like us.

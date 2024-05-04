@@ -11,7 +11,7 @@
                 <h1 class="text-5xl font-bold">Venue</h1>
                 <h3 class="py-4 text-xl">İstanbul Medeniyet University Northern Campus - Faculty of Education
                 </h3>
-                <div class="m-0 divider divider-primary dark:divider-info"></div>
+                <div class="m-0 divider divider-neutral dark:divider-primary"></div>
                 <h3 class="py-4 text-lg">You can easily reach our venue by following these precise routes:</h3>
                 <h4 class="font-bold">IETT</h4>
                 <p>Kadıköy: 15BK, 130, 130A, 130Ş, 14A, 19E, 10T, 21G, 21U, 20Ü, 16C, 16K, 14DK, 20E, E11, E10
