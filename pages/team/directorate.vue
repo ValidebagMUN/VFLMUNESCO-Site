@@ -5,7 +5,7 @@
                 <h1 class="my-10 text-5xl font-bold text-center">The Directorate</h1>
                 <div class="container flex items-center justify-center my-10">
                     <div class="card">
-                        <figure><NuxtImg placeholder src="" width="320" height="250" fit="cover"
+                        <figure><NuxtImg placeholder src="#"
                                 alt="" /></figure>
                         <div class="card-body">
                             <h2 class="card-title">Elif İnetaş</h2>
@@ -13,7 +13,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <figure><NuxtImg placeholder src=""
+                        <figure><NuxtImg placeholder src="#"
                                 alt="" /></figure>
                         <div class="card-body">
                             <h2 class="card-title">Elçin Erkiletlioğlu</h2>
@@ -23,7 +23,7 @@
                 </div>
                 <div class="container flex items-center justify-center my-10">
                     <div class="card ">
-                        <figure><NuxtImg placeholder src=""
+                        <figure><NuxtImg placeholder src="#"
                                 alt="" /></figure>
                         <div class="card-body">
                             <h2 class="card-title"> </h2>
@@ -31,7 +31,7 @@
                         </div>
                     </div>
                     <div class="card ">
-                        <figure><NuxtImg placeholder src=""
+                        <figure><NuxtImg placeholder src="#"
                                 alt="" /></figure>
                         <div class="card-body">
                             <h2 class="card-title"> </h2>
@@ -39,7 +39,7 @@
                         </div>
                     </div>
                     <div class="card ">
-                        <figure><NuxtImg placeholder src=""
+                        <figure><NuxtImg placeholder src="#"
                                 alt="" /></figure>
                         <div class="card-body">
                             <h2 class="card-title">Tuğçe Çakmak</h2>
