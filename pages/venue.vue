@@ -11,24 +11,25 @@
                 <h1 class="text-5xl font-bold">Venue</h1>
                 <h3 class="py-4 text-xl">İstanbul Medeniyet University Northern Campus - Faculty of Education
                 </h3>
-                <hr class="divide-primary dark:divide-secondary">
+                <div class="m-0 divider divider-primary dark:divider-info"></div>
                 <h3 class="py-4 text-lg">You can easily reach our venue by following these precise routes:</h3>
                 <h4 class="font-bold">IETT</h4>
                 <p>Kadıköy: 15BK, 130, 130A, 130Ş, 14A, 19E, 10T, 21G, 21U, 20Ü, 16C, 16K, 14DK, 20E, E11, E10
                 <br>Üsküdar: 320A, 11T, 13M, 16A, 16U, 16F
                 <br>Sabiha Gökçen Airport: E10, E11
-                "İstanbul Medeniyet Üniversitesi" stop
+                <br>"İstanbul Medeniyet Üniversitesi" stop
                 <br>
                 <br>Ümraniye: 14ES, 8E, 14B, 14DK
                 <br>Taksim: 129T
-                "Göztepe Köprüsü" stop
+                <br>"Göztepe Köprüsü" stop
                 </p>
+                <br>
                 <h4 class="font-bold">METROBUS</h4>
                 <p>"Uzunçayır" stop</p>
                 <br>
                 <h4 class="font-bold">METRO</h4>
                 <p>M4 Kadıköy-Tavşantepe Subway Line
-                "Göztepe" stop</p>
+                <br>"Göztepe" stop</p>
             </div>
         </div>
     </div>
