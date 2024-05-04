@@ -1,9 +1,9 @@
 <template>
-    <div class="hero text-neutral dark:text-neutral-content">
+    <div class="hero text-neutral dark:text-neutral-content overflow-clip">
         <div class="flex-col hero-content lg:flex-row">
             <div>
                 <h1 class="my-10 text-5xl font-bold text-center">The Directorate</h1>
-                <div class="container flex items-center justify-center my-10">
+                <div class="container flex flex-col items-center justify-center my-10 lg:flex-row">
                     <div class="card">
                         <figure><NuxtImg placeholder src="#"
                                 alt="" /></figure>
@@ -21,7 +21,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="container flex items-center justify-center my-10">
+                <div class="container flex flex-col items-center justify-center my-10 lg:flex-row">
                     <div class="card ">
                         <figure><NuxtImg placeholder src="#"
                                 alt="" /></figure>
