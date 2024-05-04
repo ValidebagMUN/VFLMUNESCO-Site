@@ -9,9 +9,14 @@ export default defineNuxtRouteMiddleware(async (to, from) => {
         }
     }
     if (import.meta.client) {
-        const isMaintenance = JSON.parse(await $fetch('/api/maintenance'))
-        if (to.path != "/maintenance" && isMaintenance == true) {
-            return navigateTo('/maintenance')
+        try {
+            const isMaintenance = JSON.parse(await $fetch('/api/maintenance'))
+            if (to.path != "/maintenance" && isMaintenance == true) {
+                return navigateTo('/maintenance')
+            }
+        }
+        catch (error) {
+            console.error(error)
         }
     }
 })
