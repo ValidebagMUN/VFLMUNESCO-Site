@@ -34,7 +34,7 @@
                         <figure><NuxtImg placeholder src=""
                                 alt="" /></figure>
                         <div class="card-body">
-                            <h2 class="card-title">God Knows Who</h2>
+                            <h2 class="card-title"> </h2>
                             <p>Under-Secretary-General, <br /> Principal Organs</p>
                         </div>
                     </div>

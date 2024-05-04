@@ -26,7 +26,7 @@
                         <figure><NuxtImg placeholder src=""
                                 alt="" /></figure>
                         <div class="card-body">
-                            <h2 class="card-title"></h2>
+                            <h2 class="card-title"> </h2>
                             <p>Under-Director-General, <br /> Administrative Purposes</p>
                         </div>
                     </div>
@@ -34,7 +34,7 @@
                         <figure><NuxtImg placeholder src=""
                                 alt="" /></figure>
                         <div class="card-body">
-                            <h2 class="card-title"></h2>
+                            <h2 class="card-title"> </h2>
                             <p>Under-Director-General, <br /> Public Relations</p>
                         </div>
                     </div>
