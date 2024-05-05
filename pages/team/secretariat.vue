@@ -3,7 +3,7 @@
         <div class="flex-col hero-content lg:flex-row">
             <div>
                 <h1 class="my-10 text-5xl font-bold text-center">The Secretariat</h1>
-                <div class="container flex flex-col items-center justify-center my-10 lg:flex-row">
+                <div class="container flex flex-col items-center justify-center lg:flex-row">
                     <div class="card">
                         <figure>
                             <NuxtImg placeholder src="#" alt="" />
@@ -32,7 +32,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="container flex flex-col items-center justify-center my-10 lg:flex-row">
+                <div class="container flex flex-col items-center justify-center lg:flex-row">
                     <div class="card">
                         <figure>
                             <NuxtImg placeholder src="#" alt="" />
@@ -72,6 +72,6 @@
 
 <style scoped>
 .card {
-    @apply shadow-xl w-80 mx-4 dark:bg-secondary-content
+    @apply shadow-xl w-80 mx-4 my-10 dark:bg-secondary-content
 }
 </style>
