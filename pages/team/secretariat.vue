@@ -38,7 +38,7 @@
                             <NuxtImg placeholder src="#" alt="" />
                         </figure>
                         <div class="card-body">
-                            <h2 class="card-title"> </h2>
+                            <h2 class="card-title">Zeynep Rüya Özdemir</h2>
                             <p>Under-Secretary-General, <br /> Principal Organs</p>
                         </div>
                     </div>
@@ -47,7 +47,7 @@
                             <NuxtImg placeholder src="#" alt="" />
                         </figure>
                         <div class="card-body">
-                            <h2 class="card-title">Zeynep Rüya Özdemir</h2>
+                            <h2 class="card-title">Ali Kağan Menekşelioğlu</h2>
                             <p>Under-Secretary-General, <br /> Functional Commissions</p>
                         </div>
                     </div>
