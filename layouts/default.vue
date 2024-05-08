@@ -8,6 +8,7 @@
         <SpeedInsights />
         <Header :is-dark="isDark" />
         <div class="min-h-[89vh] bg-base-100 dark:bg-neutral">
+            <NuxtLoadingIndicator :color="isDark ? '#2E4165' : '#5D1C25'" />
             <NuxtPage />
         </div>
         <Footer :is-dark="isDark" />
