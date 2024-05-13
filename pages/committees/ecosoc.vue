@@ -13,7 +13,7 @@ const committee = {
     image: '/img/ecosoc.png',
     asg: 'Öykü Taş',
     chair: 'Deniz Kartal - Ada Beril İşcan',
-    rop: 'https://docs.google.com/document/d/1znOtvLoMulsy_dmcohM4pcp8nc-t2vVL6mEYu3_eswI/edit?usp=sharing'
+    rop: 'https://vmun-bucket.s3.eu-central-1.amazonaws.com/Committees/ECOSOC/Rules+of+Procedure+of+the+Economic+and+Social+Council.pdf'
 }
 </script>
 

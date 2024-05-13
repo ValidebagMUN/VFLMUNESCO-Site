@@ -13,7 +13,7 @@ const committee = {
     image: '/img/unodc.png',
     asg: 'Mert Ömer Yıldız',
     chair: 'Ceren Çağıran',
-    rop: 'https://docs.google.com/document/d/1lm-weUGniBi8eTVjbzpDE8zYebxJMQkb692ihk5Nlo0/edit?usp=sharing'
+    rop: 'https://vmun-bucket.s3.eu-central-1.amazonaws.com/Committees/UNODC%3A+CND/Rules+of+Procedure+of+the+Commission+on+Narcotic+Drugs.pdf'
 }
 </script>
 
