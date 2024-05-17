@@ -44,7 +44,7 @@
                     </div>
                     <div class="card">
                         <figure>
-                            <NuxtImg placeholder src="/img/team/akm.jpeg" alt="" />
+                            <NuxtImg placeholder src="/img/team/akm.jpeg" alt="Ali Kağan Menekşelioğlu" />
                         </figure>
                         <div class="card-body">
                             <h2 class="card-title">Ali Kağan Menekşelioğlu</h2>
