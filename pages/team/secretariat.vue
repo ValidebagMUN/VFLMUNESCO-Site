@@ -6,7 +6,7 @@
                 <div class="container flex flex-col items-center justify-center lg:flex-row">
                     <div class="card">
                         <figure>
-                            <NuxtImg placeholder src="#" alt="" />
+                            <NuxtImg placeholder src="/img/team/eea.jpeg" alt="Ege Ender Anaklı" />
                         </figure>
                         <div class="card-body">
                             <h2 class="card-title">Ege Ender Anaklı</h2>
@@ -15,7 +15,7 @@
                     </div>
                     <div class="card">
                         <figure>
-                            <NuxtImg placeholder src="#" alt="" />
+                            <NuxtImg placeholder src="/img/team/hrk.jpeg" alt="Hakan Rüzgar Kocaoğlu" />
                         </figure>
                         <div class="card-body">
                             <h2 class="card-title">Hakan Rüzgar Kocaoğlu</h2>
@@ -24,7 +24,7 @@
                     </div>
                     <div class="card">
                         <figure>
-                            <NuxtImg placeholder src="#" alt="" />
+                            <NuxtImg placeholder src="/img/team/gg.jpeg" alt="Gökalp Gördük" />
                         </figure>
                         <div class="card-body">
                             <h2 class="card-title">Gökalp Gördük</h2>
@@ -35,7 +35,7 @@
                 <div class="container flex flex-col items-center justify-center lg:flex-row">
                     <div class="card">
                         <figure>
-                            <NuxtImg placeholder src="#" alt="" />
+                            <NuxtImg placeholder src="/img/team/zro.jpeg" alt="Zeynep Rüya Özdemir" />
                         </figure>
                         <div class="card-body">
                             <h2 class="card-title">Zeynep Rüya Özdemir</h2>
@@ -44,7 +44,7 @@
                     </div>
                     <div class="card">
                         <figure>
-                            <NuxtImg placeholder src="#" alt="" />
+                            <NuxtImg placeholder src="/img/team/akm.jpeg" alt="" />
                         </figure>
                         <div class="card-body">
                             <h2 class="card-title">Ali Kağan Menekşelioğlu</h2>

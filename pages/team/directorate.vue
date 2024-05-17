@@ -5,16 +5,16 @@
                 <h1 class="my-10 text-5xl font-bold text-center">The Directorate</h1>
                 <div class="container flex flex-col items-center justify-center lg:flex-row">
                     <div class="card">
-                        <figure><NuxtImg placeholder src="#"
-                                alt="" /></figure>
+                        <figure><NuxtImg placeholder src="/img/team/ei.jpeg"
+                                alt="Elif İnetaş" /></figure>
                         <div class="card-body">
                             <h2 class="card-title">Elif İnetaş</h2>
                             <p>Director-General</p>
                         </div>
                     </div>
                     <div class="card">
-                        <figure><NuxtImg placeholder src="#"
-                                alt="" /></figure>
+                        <figure><NuxtImg placeholder src="/img/team/ee.jpeg"
+                                alt="Elçin Naz Erkiletlioğlu" /></figure>
                         <div class="card-body">
                             <h2 class="card-title">Elçin Erkiletlioğlu</h2>
                             <p>Deputy Director-General</p>
@@ -39,8 +39,8 @@
                         </div>
                     </div>
                     <div class="card ">
-                        <figure><NuxtImg placeholder src="#"
-                                alt="" /></figure>
+                        <figure><NuxtImg placeholder src="/img/team/tc.jpeg"
+                                alt="Tuğçe Çakmak" /></figure>
                         <div class="card-body">
                             <h2 class="card-title">Tuğçe Çakmak</h2>
                             <p>Under-Director-General, <br /> Media</p>
