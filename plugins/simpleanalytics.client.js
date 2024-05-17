@@ -1,9 +1,9 @@
 import SimpleAnalytics from "simple-analytics-vue"
 
 export default defineNuxtPlugin((nuxtApp) => {
-  console.log(nuxtApp.$config);
+  console.log(nuxtApp.$config.public);
   nuxtApp.vueApp.use(SimpleAnalytics, {
-    skip: nuxtApp.$config.VERCEL_ENV !== "production",
+    skip: nuxtApp.$config.public.VERCEL_ENV !== "production",
     // domain: "sa.validebagmun.org"
   });
 });
