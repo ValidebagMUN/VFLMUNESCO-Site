@@ -55,6 +55,7 @@ export default defineNuxtConfig({
       sameAs: [
         "https://www.instagram.com/validebagmun/",
         "https://github.com/ValidebagMUN",
+        "https://vmun.io"
       ]
     }
   },
