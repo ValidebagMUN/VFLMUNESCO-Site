@@ -1,5 +1,4 @@
 <template>
-
     <Head>
         <Title>{{ slug.toUpperCase() }}</Title>
     </Head>
