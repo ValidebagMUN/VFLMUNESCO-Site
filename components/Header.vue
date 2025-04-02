@@ -10,15 +10,23 @@
                     </svg>
                 </div>
                 <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                    <li><a>Item 1</a></li>
                     <li>
-                        <a>Parent</a>
+                        <a>Our Team</a>
                         <ul class="p-2">
-                            <li><a>Submenu 1</a></li>
-                            <li><a>Submenu 2</a></li>
+                            <li><NuxtLink to="/team/secretariat">Secretariat</NuxtLink></li>
+                            <li><NuxtLink to="/team/directorate">Directorate</NuxtLink></li>
                         </ul>
                     </li>
-                    <li><a>Item 3</a></li>
+                    <li><NuxtLink to="/committees">Committees</NuxtLink></li>
+                    <li>
+                        <a>About</a>
+                        <ul class="p-2">
+                            <li><NuxtLink to="/venue">Venue</NuxtLink></li>
+                            <li><NuxtLink to="/schedule">Schedule</NuxtLink></li>
+                        </ul>
+                    </li>
+                    <li><NuxtLink to="/faq">FAQ</NuxtLink></li>
+                    <li><NuxtLink to="/contact">Contact</NuxtLink></li>
                 </ul>
             </div>
 
@@ -34,47 +42,22 @@
                     <div tabindex="0" role="button" class="m-1 mb-0 text-lg btn btn-ghost no-animation">OUR TEAM</div>
                     <ul tabindex="0" class="dropdown-content bg-base-100 z-[1] menu p-2 rounded-box w-32 font-semibold">
                         <li>
-                            <NuxtLink to="/team/secretariat">Secretariat</NuxtLink>
+                            <NuxtLink to="/team/secretariat">SECRETARIAT</NuxtLink>
                         </li>
                         <li>
-                            <NuxtLink to="/team/directorate">Directorate</NuxtLink>
+                            <NuxtLink to="/team/directorate">DIRECTORATE</NuxtLink>
                         </li>
                     </ul>
                 </div>
-                <div class="dropdown dropdown-hover">
-                    <div tabindex="0" role="button" class="m-1 mb-0 text-lg btn btn-ghost no-animation">COMMITTEES</div>
-                    <ul tabindex="0" class="dropdown-content bg-base-100 z-[1] menu p-2 rounded-box w-36 font-semibold">
-                        <li>
-                            <NuxtLink to="/committees/ep">EP</NuxtLink>
-                        </li>
-                        <li>
-                            <NuxtLink to="/committees/unodc">UNODC: CND</NuxtLink>
-                        </li>
-                        <li>
-                            <NuxtLink to="/committees/ecosoc">ECOSOC</NuxtLink>
-                        </li>
-                        <li>
-                            <NuxtLink to="/committees/unga">UNGA</NuxtLink>
-                        </li>
-                        <li>
-                            <NuxtLink to="/committees/unsc">UNSC</NuxtLink>
-                        </li>
-                        <li>
-                            <NuxtLink to="/committees/jcc">JCC</NuxtLink>
-                        </li>
-                        <li>
-                            <NuxtLink to="/committees/hcc">HCC</NuxtLink>
-                        </li>
-                    </ul>
-                </div>
+                <NuxtLink tabindex="0" role="button" class="m-1 text-lg btn btn-ghost" to="/committees">COMMITTEES</NuxtLink>
                 <div class="dropdown dropdown-hover">
                     <div tabindex="0" role="button" class="m-1 mb-0 text-lg btn btn-ghost no-animation">ABOUT</div>
                     <ul tabindex="0" class="dropdown-content bg-base-100 z-[1] menu p-2 rounded-box w-32 font-semibold">
                         <li>
-                            <NuxtLink to="/venue">Venue</NuxtLink>
+                            <NuxtLink to="/venue">VENUE</NuxtLink>
                         </li>
                         <li>
-                            <NuxtLink to="/schedule">Schedule</NuxtLink>
+                            <NuxtLink to="/schedule">SCHEDULE</NuxtLink>
                         </li>
                     </ul>
                 </div>
@@ -83,7 +66,7 @@
             </ul>
         </div>
         <div class="mr-1 navbar-end">
-            <NuxtLink tabindex="0" role="button" to="/apply" class="btn btn-primary">Apply Now</NuxtLink>
+            <!-- <NuxtLink tabindex="0" role="button" to="/apply" class="btn btn-primary">Apply Now</NuxtLink> -->
         </div>
     </div>
 </template>
