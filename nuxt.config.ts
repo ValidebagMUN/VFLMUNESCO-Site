@@ -12,6 +12,11 @@ export default defineNuxtConfig({
     '@nuxt/scripts',
     '@nuxtjs/color-mode'
   ],
+  runtimeConfig: {
+    public: {
+    },
+    maintenance: "false"
+  },
   colorMode: {
     preference: 'system',
     classPrefix: '',
