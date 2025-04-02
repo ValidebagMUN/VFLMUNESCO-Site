@@ -13,30 +13,31 @@
                 </div>
             </aside>
             <nav>
-                <a><h6 class="footer-title">Conference</h6></a>
+                <a><span class="footer-title">Conference</span></a>
                 <NuxtLink to="/" class="link link-hover">Home</NuxtLink>
                 <!-- <NuxtLink to="/apply/" class="link link-hover">Apply</NuxtLink> -->
                 <NuxtLink to="/team/secretariat/" class="link link-hover">Secretariat</NuxtLink>
                 <NuxtLink to="/team/directorate/" class="link link-hover">Directorate</NuxtLink>
-                <!-- <NuxtLink to="/venue/" class="link link-hover">Venue</NuxtLink> -->
-                <!-- <NuxtLink to="/schedule/" class="link link-hover">Schedule</NuxtLink> -->
+                <NuxtLink to="/venue/" class="link link-hover">Venue</NuxtLink>
+                <NuxtLink to="/schedule/" class="link link-hover">Schedule</NuxtLink>
                 <NuxtLink to="/faq/" class="link link-hover">FAQ</NuxtLink>
                 <NuxtLink to="/contact/" class="link link-hover">Contact Us</NuxtLink>
             </nav>
             <nav>
-                <a><h6 class="footer-title">Committees</h6></a>
-                <!-- <NuxtLink to="/committees/ep/" class="link link-hover">European Parliament</NuxtLink>
-                <NuxtLink to="/committees/unodc/" class="link link-hover">UNODC: CND</NuxtLink>
-                <NuxtLink to="/committees/ecosoc/" class="link link-hover">ECOSOC</NuxtLink>
+                <a><span class="footer-title">Committees</span></a>
                 <NuxtLink to="/committees/unga/" class="link link-hover">UNGA</NuxtLink>
-                <NuxtLink to="/committees/unsc/" class="link link-hover">UNSC</NuxtLink>
-                <NuxtLink to="/committees/jcc/" class="link link-hover">JCC</NuxtLink>
-                <NuxtLink to="/committees/hcc/" class="link link-hover">HCC</NuxtLink> -->
+                <NuxtLink to="/committees/unhrc/" class="link link-hover">UNHRC</NuxtLink>
+                <NuxtLink to="/committees/unfccc/" class="link link-hover">UNFCCC</NuxtLink>
+                <NuxtLink to="/committees/hunsc/" class="link link-hover">HUNSC</NuxtLink>
+                <NuxtLink to="/committees/nato/" class="link link-hover">NATO</NuxtLink>
+                <NuxtLink to="/committees/lon/" class="link link-hover">League of Nations</NuxtLink>
+                <NuxtLink to="/committees/gw/" class="link link-hover">Gothic War</NuxtLink>
+                <NuxtLink to="/committees/iw/" class="link link-hover">Imjin War</NuxtLink>
             </nav>
             <nav>
                 <a><span class="footer-title">Legal</span></a>
-                <NuxtLink to="/legal/termsandconditions/" class="link link-hover">Terms and Conditions</NuxtLink>
-                <NuxtLink to="/legal/privacypolicy/" class="link link-hover">Privacy policy</NuxtLink>
+                <NuxtLink to="/legal/tnc/" class="link link-hover">Terms and Conditions</NuxtLink>
+                <NuxtLink to="/legal/privpol/" class="link link-hover">Privacy policy</NuxtLink>
             </nav>
             <nav><h6 class="footer-title">Social</h6>
                 <div class="grid grid-flow-col gap-4">
