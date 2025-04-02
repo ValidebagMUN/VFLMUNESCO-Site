@@ -1,5 +1,5 @@
 <template>
-    <div class="card shadow-xl shadow-base-content w-80 mx-6 my-10 bg-base-100 rounded-none" :key="slug">
+    <div class="card w-80 mx-6 my-10 bg-base-100 rounded-none" :key="slug">
         <NuxtLink :to="'/committees/' + slug"><figure>
             <NuxtImg :src="img" :alt="name" v-slot="{ src, isLoaded, imgAttrs }">
                 <img v-if="isLoaded" v-bind="imgAttrs" :src="src">
