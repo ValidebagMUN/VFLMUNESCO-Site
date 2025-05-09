@@ -1,19 +1,21 @@
 <template>
-    <Committee v-bind="committee" />
+    <div>
+        <Committee v-bind="committee"/>
+    </div>
 </template>
 
 <script setup lang="ts">
 const committee = {
-    slug: 'unodc: cnd',
-    name: 'United Nations Office on Drugs and Crime - Commission on Narcotic Drugs',
+    slug: 'UNODC',
+    name: 'United Nations Office on Drugs and Crime',
     agenda: [
-        'Unregulated production of psychoactive substances'
+        'Strengthening Youth Resilience to Lower the Risk of Recruitment by Gangs and Organized Criminal Networks'
     ],
-    text: 'The Commission on Narcotic Drugs (CND) is a functional commission of the Economic and Social Council (ECOSOC) established in 1946 to oversee international drug control treaties. The CND expanded its mandate in 1991 to function as the governing body of UNODC. The CND convenes annually to pass resolutions and decisions, holding inter-sessional meetings throughout the year. As the UN drug program governing body, it convenes at the end of each year to discuss administrative and budgetary issues. As the primary drug policy-making body in the United Nations System, it possesses crucial mandates under the three international drug control conventions alongside the World Health Organization, the United Nations Office on Drugs and Crime and the International Narcotics Control Board.\n\nPsychoactive substances are chemical substances that change the function of the nervous system resulting in alterations of perception, mood, cognition and behavior. With the legal status of psychoactive substance consumption and production changing regularly and the increase in the decriminalization of psychoactive substances among nations, regulation of such substances are becoming a major problem. Psychoactive substances, when not regulated, are subject to illicit trafficking which gives birth to societal inequality, internal conflict, and a general disturbance for domestic and international peace.\n\nUtilizing the opportunities of the millennium; the commission, as the head of the United Nations\’ drug program, is to guide nations to find modern solutions to our modern problems.',
-    image: '/img/unodc.png',
-    asg: 'Mert Ömer Yıldız',
-    chair: 'Azra Aydemir - Ceren Çağıran',
-    rop: 'https://vmun-bucket.s3.eu-central-1.amazonaws.com/Committees/UNODC%3A+CND/Rules+of+Procedure+of+the+Commission+on+Narcotic+Drugs.pdf'
+    text: 'In today\'s world, young people are becoming targets of criminal organizations due to reasons such as social inequalities, inadequate educational opportunities, unemployment and social exclusion. This situation paves the way for organized crime networks to easily manipulate young individuals and include them in their own structures. This year, in ValidebağMUN\'25, the UNODC (United Nations Office on Drugs and Crime) committee is coming together under the title of "Reducing the Risk of Gang and Organized Crime Network Recruitment by Strengthening the Resilience of Young People". Delegates will address the impact of criminal organizations on young people and try to produce solutions to issues such as education policies, community-based support mechanisms and international cooperation. In this committee, where innovative and sustainable strategies to protect young people will be discussed, you too can play an active role in the fight against global crime. Because your voice matters!',
+    image: '/img/committees/bg/unodc.png',
+    usg: 'Yağmur Kaya',
+    chair: 'Lina Bolgi - Elif Rana',
+    acas: 'Melih Büyükbozkoyun',
 }
 </script>
 
