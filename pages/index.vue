@@ -39,7 +39,7 @@
             <div class="m-0 my-3 divider divider-neutral"></div>
             <h3 class="mb-2 text-2xl font-bold">Most Esteemed Delegates,</h3>
             <p class="text-xl">
-            It is both an honor and a true pleasure to welcome each and every one of you to the very first edition of VALIDEBAGMUN. My name is Zeynep Rüya Özdemir, and as your Secretary-General, I can confirm that our team has worked very hard with great diligence in order to create a memorable experience.
+            It is both an honor and a true pleasure to welcome each and every one of you to the very first edition of ValidebağMUN. My name is Zeynep Rüya Özdemir, and as your Secretary-General, I can confirm that our team has worked very hard with great diligence in order to create a memorable experience.
             <br><br>
             We have poured great effort into designing committees that provide an inclusive environment, where delegates can express themselves freely, regardless of their previous experience or background. Our aim was to eliminate any sense of hierarchy and ensure a space where everyone feels equally valued and empowered to speak.
             <br><br>

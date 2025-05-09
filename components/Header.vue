@@ -34,13 +34,13 @@
                 v-show="isDark" />
             <NuxtImg src="/vmun-black.svg" alt="ValidebagMUN logo" class="h-16 ml-1 hover:animate-pulse"
                 v-show="!isDark" />
-            <NuxtLink id="logo" class="btn btn-ghost text-2xl mx-0 px-1.5 max-sm:hidden hover:bg-inherit hover:border-base-100" to="/">ValidebağMUN</NuxtLink>
+            <NuxtLink id="logo" class="btn btn-ghost text-2xl mx-0 pl-0 pr-1.5 max-sm:hidden hover:bg-inherit hover:border-base-100" to="/">ValidebağMUN</NuxtLink>
         </div>
         <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
                 <div class="dropdown dropdown-hover">
                     <div tabindex="0" role="button" class="m-1 mb-0 text-lg btn btn-ghost no-animation">OUR TEAM</div>
-                    <ul tabindex="0" class="dropdown-content bg-base-100 z-[1] menu p-2 rounded-box w-32 font-semibold">
+                    <ul tabindex="0" class="dropdown-content bg-base-100 z-[1] menu p-3 rounded-box w-34 font-semibold">
                         <li>
                             <NuxtLink to="/team/secretariat">SECRETARIAT</NuxtLink>
                         </li>
