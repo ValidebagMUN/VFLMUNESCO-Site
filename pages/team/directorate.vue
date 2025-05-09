@@ -9,8 +9,8 @@
                 </div>
                 <div class="container flex flex-col items-center justify-center lg:flex-row">
                     <TeamCard img="/img/team/dk.jpg" name="Dila Karadeniz" title="Head of Public Relations" />
-                    <TeamCard img="/img/team/sya.jpg" name="Şevval Yasemin Aslan" title="Head of Administrative Staff" />
-                    <TeamCard img="/img/team/yb.jpg" name="Yüsra Berk" title="Deputy Head of Administrative Staff" />
+                    <TeamCard img="/img/team/sya.jpg" name="Şevval Yasemin Aslan" title="Head of the Administrative Staff" />
+                    <TeamCard img="/img/team/yb.jpg" name="Yüsra Berk" title="Deputy Head of the Administrative Staff" />
                 </div>
                 <div class="container flex flex-col items-center justify-center lg:flex-row">
                     <TeamCard img="/img/team/aea.jpg" name="Ahmet Emir Alev" title="Co-Head of Information Technologies" />
