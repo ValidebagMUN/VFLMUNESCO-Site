@@ -57,7 +57,7 @@
 </template>
 
 <script setup lang="ts">
-const date = ref({ days: 30, hours: 6, minutes: 20, seconds: 25 });
+const date = ref({ days: 15, hours: 5, minutes: 19, seconds: 19 });
 onNuxtReady(() => {
     setInterval(() => {
         const eventStartTime = Date.now();
