@@ -6,7 +6,7 @@
                 <div class="container flex flex-col items-center justify-center lg:flex-row">
                     <CommitteeCard img="/img/committees/unga.png" slug="unga" name="United Nations General Assembly" />
                     <CommitteeCard img="/img/committees/unhrc.png" slug="unhrc" name="United Nations Human Rights Council" />
-                    <CommitteeCard img="/img/committees/unfccc.png" slug="unfccc" name="United Nations Framework Convention on Climate Change" />
+                    <CommitteeCard img="/img/committees/unodc.png" slug="unodc" name="United Nations Office on Drugs and Crime" />
                 </div>
                 <div class="container flex flex-col items-center justify-center lg:flex-row">
                     <CommitteeCard img="/img/committees/hunsc.png" slug="hunsc" name="Historical United Nations Security Council" />
@@ -14,8 +14,8 @@
                     <CommitteeCard img="/img/committees/lon.png" slug="lon" name="League of Nations" />
                 </div>
                 <div class="container flex flex-col items-center justify-center lg:flex-row">
-                    <CommitteeCard img="/img/committees/gw.png" slug="gw" name="Gothic War" />
-                    <CommitteeCard img="/img/committees/iw.png" slug="iw" name="Imjin War" />
+                    <CommitteeCard img="/img/committees/hcc.png" slug="hcc" name="HCC: Gothic War" />
+                    <CommitteeCard img="/img/committees/jcc.png" slug="jcc" name="JCC: Imjin War" />
                 </div>
             </div>
         </div>

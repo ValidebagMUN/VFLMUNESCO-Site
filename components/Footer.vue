@@ -27,12 +27,12 @@
                 <a><span class="footer-title">Committees</span></a>
                 <NuxtLink to="/committees/unga/" class="link link-hover">UNGA</NuxtLink>
                 <NuxtLink to="/committees/unhrc/" class="link link-hover">UNHRC</NuxtLink>
-                <NuxtLink to="/committees/unfccc/" class="link link-hover">UNFCCC</NuxtLink>
+                <NuxtLink to="/committees/unodc/" class="link link-hover">UNODC</NuxtLink>
                 <NuxtLink to="/committees/hunsc/" class="link link-hover">HUNSC</NuxtLink>
                 <NuxtLink to="/committees/nato/" class="link link-hover">NATO</NuxtLink>
                 <NuxtLink to="/committees/lon/" class="link link-hover">League of Nations</NuxtLink>
-                <NuxtLink to="/committees/gw/" class="link link-hover">Gothic War</NuxtLink>
-                <NuxtLink to="/committees/iw/" class="link link-hover">Imjin War</NuxtLink>
+                <NuxtLink to="/committees/hcc/" class="link link-hover">HCC: Gothic War</NuxtLink>
+                <NuxtLink to="/committees/jcc/" class="link link-hover">JCC: Imjin War</NuxtLink>
             </nav>
             <nav>
                 <a><span class="footer-title">Legal</span></a>

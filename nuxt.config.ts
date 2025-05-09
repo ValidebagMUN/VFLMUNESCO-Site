@@ -18,7 +18,7 @@ export default defineNuxtConfig({
     maintenance: "false"
   },
   colorMode: {
-    preference: 'system',
+    preference: 'dark',
     classPrefix: '',
     classSuffix: '',
     storage: 'localStorage',

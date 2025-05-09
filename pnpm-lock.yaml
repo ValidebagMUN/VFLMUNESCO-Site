@@ -29,6 +29,9 @@ importers:
       nuxt:
         specifier: ^3.16.1
         version: 3.16.1(@parcel/watcher@2.5.1)(db0@0.3.1)(ioredis@5.6.0)(lightningcss@1.29.2)(magicast@0.3.5)(rollup@4.38.0)(terser@5.39.0)(vite@6.2.4(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.39.0)(yaml@2.7.1))(yaml@2.7.1)
+      simple-analytics-vue:
+        specifier: ^3.0.2
+        version: 3.0.2(vue@3.5.13)
       tailwindcss:
         specifier: ^4.0.17
         version: 4.0.17
@@ -2631,6 +2634,11 @@ packages:
   signal-exit@4.1.0:
     resolution: {integrity: sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==}
     engines: {node: '>=14'}
+
+  simple-analytics-vue@3.0.2:
+    resolution: {integrity: sha512-YEKTvd8IlAxJcywFkdGyO8S+ZO5iL8GaX/RsPoRlQtWOV9F64HW+gYI6NL7T2/Bf3as0ucyBmXGou1q4Eq6F9A==}
+    peerDependencies:
+      vue: ^3.0.0
 
   simple-concat@1.0.1:
     resolution: {integrity: sha512-cSFtAPtRhljv69IK0hTVZQ+OfE9nePi/rtJmw5UjHeVyVroEqJXP1sFztKUy1qU+xvz3u/sfYJLa947b7nAN2Q==}
@@ -6133,6 +6141,10 @@ snapshots:
   shell-quote@1.8.2: {}
 
   signal-exit@4.1.0: {}
+
+  simple-analytics-vue@3.0.2(vue@3.5.13):
+    dependencies:
+      vue: 3.5.13
 
   simple-concat@1.0.1:
     optional: true

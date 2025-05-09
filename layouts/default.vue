@@ -7,7 +7,7 @@
             <Meta name="keywords" contens="validebağ, validebağmun, mun, model united nations, high school, united nations"></Meta>
         </Head>
         <Header :is-dark="isDark" />
-        <div class="min-h-[89vh] bg-base-100 dark:bg-neutral">
+        <div class="min-h-[89vh] bg-base-100">
             <!-- <NuxtLoadingIndicator :color="isDark ? '#2E4165' : '#5D1C25'" /> -->
             <NuxtLoadingIndicator />
             <NuxtPage />
@@ -19,8 +19,12 @@
 <script setup lang="ts">
 const colorMode = useColorMode()
 
-const isDark = computed(() => colorMode.value === 'dark')
-const favicon = computed(() => isDark.value ? '/vmun-white.svg' : '/vmun-black.svg')
+// const isDark = computed(() => colorMode.value === 'dark')
+// const favicon = computed(() => isDark.value ? '/vmun-white.svg' : '/vmun-black.svg')
+
+// Temporary constant dark mode for annual theme
+const favicon = '/vmun-black.svg'
+const isDark = true
 </script>
 
 <style scoped>

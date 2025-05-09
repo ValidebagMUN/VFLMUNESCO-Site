@@ -30,9 +30,9 @@
                 </ul>
             </div>
 
-            <NuxtImg src="/vmun-light.svg" alt="ValidebagMUN logo" class="h-16 ml-1 hover:animate-pulse"
+            <NuxtImg src="/vmun-white.svg" alt="ValidebagMUN logo" class="h-16 ml-1 hover:animate-pulse"
                 v-show="isDark" />
-            <NuxtImg src="/vmun-dark.svg" alt="ValidebagMUN logo" class="h-16 ml-1 hover:animate-pulse"
+            <NuxtImg src="/vmun-black.svg" alt="ValidebagMUN logo" class="h-16 ml-1 hover:animate-pulse"
                 v-show="!isDark" />
             <NuxtLink id="logo" class="btn btn-ghost text-2xl mx-0 px-1.5 max-sm:hidden hover:bg-inherit hover:border-base-100" to="/">ValidebağMUN</NuxtLink>
         </div>
