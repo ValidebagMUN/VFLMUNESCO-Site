@@ -1,45 +1,48 @@
 <template>
     <div>
-        <footer class="footer px-10 py-8 bg-neutral-content text-[1rem] text-neutral dark:bg-primary-content dark:text-neutral-content">
-            <div>
-                <NuxtImg src="/vmun-light.svg" alt="ValidebagMUN logo" class="h-28" v-show="isDark" />
-                <NuxtImg src="/vmun-dark.svg" alt="ValidebagMUN logo" class="h-28" v-show="!isDark" />
-                <p>Validebağ Science High School<br />Model United Nations Club <br />Copyright &copy; 2024</p>
-                <span class="font-semibold text-neutral dark:text-base-200">Developed by <a target="_blank"
-                        href="https://github.com/HexaBinary">HexaBinary</a>
-                </span>
-                <SimpleAnalyticsBadge :is-dark="isDark"/>
-            </div>
-            <div>
+        <footer class="footer sm:footer-horizontal bg-base-200 text-base-content p-10 text-[1rem]">
+            <aside>
+                <div>
+                    <NuxtImg src="/vmun-light.svg" alt="ValidebagMUN logo" class="h-28" v-show="isDark" />
+                    <NuxtImg src="/vmun-dark.svg" alt="ValidebagMUN logo" class="h-28" v-show="!isDark" />
+                    <p>Validebağ Science High School<br />Model United Nations Club <br />Copyright &copy; 2025</p>
+                    <span class="font-semibold text-neutral">Developed by <a target="_blank"
+                            href="https://github.com/HexaBinary">HexaBinary</a>
+                    </span>
+                    <SimpleAnalyticsBadge :is-dark="isDark" />
+                </div>
+            </aside>
+            <nav>
                 <a><span class="footer-title">Conference</span></a>
                 <NuxtLink to="/" class="link link-hover">Home</NuxtLink>
-                <NuxtLink to="/apply/" class="link link-hover">Apply</NuxtLink>
+                <!-- <NuxtLink to="/apply/" class="link link-hover">Apply</NuxtLink> -->
                 <NuxtLink to="/team/secretariat/" class="link link-hover">Secretariat</NuxtLink>
                 <NuxtLink to="/team/directorate/" class="link link-hover">Directorate</NuxtLink>
                 <NuxtLink to="/venue/" class="link link-hover">Venue</NuxtLink>
                 <NuxtLink to="/schedule/" class="link link-hover">Schedule</NuxtLink>
                 <NuxtLink to="/faq/" class="link link-hover">FAQ</NuxtLink>
                 <NuxtLink to="/contact/" class="link link-hover">Contact Us</NuxtLink>
-            </div>
-            <div>
+            </nav>
+            <nav>
                 <a><span class="footer-title">Committees</span></a>
-                <NuxtLink to="/committees/ep/" class="link link-hover">European Parliament</NuxtLink>
-                <NuxtLink to="/committees/unodc/" class="link link-hover">UNODC: CND</NuxtLink>
-                <NuxtLink to="/committees/ecosoc/" class="link link-hover">ECOSOC</NuxtLink>
                 <NuxtLink to="/committees/unga/" class="link link-hover">UNGA</NuxtLink>
-                <NuxtLink to="/committees/unsc/" class="link link-hover">UNSC</NuxtLink>
-                <NuxtLink to="/committees/jcc/" class="link link-hover">JCC</NuxtLink>
-                <NuxtLink to="/committees/hcc/" class="link link-hover">HCC</NuxtLink>
-            </div>
-            <div>
+                <NuxtLink to="/committees/unhrc/" class="link link-hover">UNHRC</NuxtLink>
+                <NuxtLink to="/committees/unodc/" class="link link-hover">UNODC</NuxtLink>
+                <NuxtLink to="/committees/hunsc/" class="link link-hover">HUNSC</NuxtLink>
+                <NuxtLink to="/committees/nato/" class="link link-hover">NATO</NuxtLink>
+                <NuxtLink to="/committees/lon/" class="link link-hover">League of Nations</NuxtLink>
+                <NuxtLink to="/committees/hcc/" class="link link-hover">HCC: Gothic War</NuxtLink>
+                <NuxtLink to="/committees/jcc/" class="link link-hover">JCC: Imjin War</NuxtLink>
+            </nav>
+            <nav>
                 <a><span class="footer-title">Legal</span></a>
-                <NuxtLink to="/legal/termsandconditions/" class="link link-hover">Terms and Conditions</NuxtLink>
-                <NuxtLink to="/legal/privacypolicy/" class="link link-hover">Privacy policy</NuxtLink>
-            </div>
-            <div>
-                <span class="footer-title">Social</span>
+                <NuxtLink to="/legal/tnc/" class="link link-hover">Terms and Conditions</NuxtLink>
+                <NuxtLink to="/legal/privpol/" class="link link-hover">Privacy policy</NuxtLink>
+            </nav>
+            <nav><h6 class="footer-title">Social</h6>
                 <div class="grid grid-flow-col gap-4">
-                    <a aria-label="Our Club's Instagram account" target="_blank" href="https://www.instagram.com/validebagmun/">
+                    <a aria-label="Our Club's Instagram account" target="_blank"
+                        href="https://www.instagram.com/validebagmun/">
                         <svg type="color-fill-current" width="28px" height="28px" viewBox="0 0 20 20" x="0px" y="0px"
                             class="fill-current">
                             <g>
@@ -63,7 +66,8 @@
                             </g>
                         </svg>
                     </a> -->
-                    <a aria-label="Our Club's Github Organization" target="_blank" href="https://github.com/ValidebagMUN">
+                    <a aria-label="Our Club's Github Organization" target="_blank"
+                        href="https://github.com/ValidebagMUN">
                         <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="28" height="28"
                             viewBox="0 0 24 24">
                             <path
@@ -71,7 +75,7 @@
                         </svg>
                     </a>
                 </div>
-            </div>
+            </nav>
         </footer>
     </div>
 </template>
@@ -85,9 +89,4 @@ const props = defineProps({
 })
 </script>
 
-<style scoped>
-.footer-title {
-    opacity: 0.8;
-    @apply text-primary-content dark:text-neutral-content
-}
-</style>
+<style scoped></style>

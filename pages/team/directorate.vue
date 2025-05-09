@@ -1,16 +1,28 @@
 <template>
-    <div class="hero text-neutral dark:text-neutral-content overflow-clip">
+    <div class="hero text-neutral overflow-clip">
         <div class="flex-col hero-content lg:flex-row">
             <div>
                 <h1 class="my-10 text-5xl font-bold text-center">The Directorate</h1>
                 <div class="container flex flex-col items-center justify-center lg:flex-row">
-                    <TeamCard img="/img/team/ei.jpeg" name="Elif İnetaş" title="Director-General" />
-                    <TeamCard img="/img/team/ee.jpeg" name="Elçin Naz Erkiletlioğlu" title="Deputy Director-General" />
+                    <TeamCard img="/img/team/ene.jpg" name="Elçin Naz Erkiletlioğlu" title="Director-General" />
+                    <TeamCard img="/img/team/ei.jpg" name="Elif İnetaş" title="Deputy Director-General" />
                 </div>
                 <div class="container flex flex-col items-center justify-center lg:flex-row">
-                    <TeamCard img="#" name="Berat Küçükakın" title="Under-Director-General" position="Administrative Purposes" />
-                    <TeamCard img="#" name="Recep Uzun" title="Under-Director-General" position="Public Relations" />
-                    <TeamCard img="/img/team/tc.jpeg" name="Tuğçe Çakmak" title="Under-Director-General" position="Press & Media" />
+                    <TeamCard img="/img/team/dk.jpg" name="Dila Karadeniz" title="Head of Public Relations" />
+                    <TeamCard img="/img/team/sya.jpg" name="Şevval Yasemin Aslan" title="Head of the Administrative Staff" />
+                    <TeamCard img="/img/team/yb.jpg" name="Yüsra Berk" title="Deputy Head of the Administrative Staff" />
+                </div>
+                <div class="container flex flex-col items-center justify-center lg:flex-row">
+                    <TeamCard img="/img/team/aea.jpg" name="Ahmet Emir Alev" title="Co-Head of Information Technologies" />
+                    <TeamCard img="/img/team/ga.jpg" name="Gizem Aral" title="Co-Head of Information Technologies" />
+                </div>
+                <div class="container flex flex-col items-center justify-center lg:flex-row">
+                    <TeamCard img="/img/team/id.jpg" name="Irmak Dağlıoğlu" title="Co-Head of Logistics" />
+                    <TeamCard img="/img/team/evb.jpg" name="Eymen Vefa Başar" title="Co-Head of Logistics" />
+                </div>
+                <div class="container flex flex-col items-center justify-center lg:flex-row">
+                    <TeamCard img="/img/team/mt.jpg" name="Meva Tunç" title="Co-Head of Press & Media" />
+                    <TeamCard img="/img/team/iu.jpg" name="İncilay Uysal" title="Co-Head of Press & Media" />
                 </div>
             </div>
         </div>
@@ -22,7 +34,5 @@
 </script>
 
 <style scoped>
-.card {
-    @apply shadow-xl w-80 mx-4 my-10 bg-base-100 dark:bg-secondary-content
-}
+
 </style>

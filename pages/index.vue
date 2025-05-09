@@ -1,10 +1,10 @@
 <template>
     <div>
         <div class="min-h-[89vh] hero" style="background-image: url(/img/team/main.jpg);">
-            <div class="hero-overlay bg-opacity-80"></div>
-            <div class="text-center hero-content text-neutral-content">
+            <div class="hero-overlay bg-opacity-100 opacity-25 bg-base-100"></div>
+            <div class="text-center hero-content text-base-300">
                 <div class="max-w-md">
-                    <h1 class="pt-20 mb-5 text-5xl font-bold">Introducing ValidebağMUN</h1>
+                    <h1 class="mt-[-4em] mb-5 text-5xl font-bold">Introducing ValidebağMUN</h1>
                     <div class="grid justify-center grid-flow-col gap-5 mb-2 text-center auto-cols-max">
                         <div class="flex flex-col">
                             <span class="font-mono text-5xl countdown">
@@ -34,15 +34,24 @@
                 </div>
             </div>
         </div>
-        <div class="min-h-[80vh] py-10 pt-20 mx-20 text-neutral dark:text-neutral-content">
+        <div class="min-h-[80vh] py-10 pt-20 mx-20 text-neutral">
             <h2 class="text-3xl font-bold">Letter from the Secretary-General</h2>
-            <div class="m-0 my-3 divider divider-neutral dark:divider-primary"></div>
-            <h3 class="mb-2 text-2xl font-bold">Dear Participants,</h3>
+            <div class="m-0 my-3 divider divider-neutral"></div>
+            <h3 class="mb-2 text-2xl font-bold">Most Esteemed Delegates,</h3>
             <p class="text-xl">
-            I as the Secretary-General, welcome you all to the first edition of Validebağ Science High School Model United Nations Conference. With a dedicated vision to portray and reflect the dynamics of the United Nations system and global politics, and a bold mission to ensure a remarkable experience to all of our participants; we are in a long journey of hardwork and dedication. In accordance with our academic preferences and organizational perfectionism we wish to create a nearly one-to-one diplomatic environment for students just like us.
-            <br><br>We see it as a priority to equip you with the necessary awareness as we prepare to take stage and become the leaders of next generations. With ValidebağMUN’24, we tried to achieve this by emphasizing the words United Nations in the general concept of MUNs. Nowadays, most MUNs may lack the sufficient academic ambition but we can guarantee, we possess this much-needed academic ambition and an avant-garde vision for our future. So, once again; I welcome you all to an unmatched avant-garde diplomatic and political experience.
+            It is both an honor and a true pleasure to welcome each and every one of you to the very first edition of ValidebağMUN. My name is Zeynep Rüya Özdemir, and as your Secretary-General, I can confirm that our team has worked very hard with great diligence in order to create a memorable experience.
+            <br><br>
+            We have poured great effort into designing committees that provide an inclusive environment, where delegates can express themselves freely, regardless of their previous experience or background. Our aim was to eliminate any sense of hierarchy and ensure a space where everyone feels equally valued and empowered to speak.
+            <br><br>
+            In preparation for the sessions ahead, we have created comprehensive study guides that dive into each agenda item with careful attention to detail. These guides are meant to not only inform, but to inspire you deeply with the issues at hand and think critically about possible solutions. Apart from the committees, we have also prepared a variety of social activities and breaks that will allow you to relax, recharge, and build friendships with other delegates.
+            <br><br>
+            Throughout these three days, I hope you take full advantage of this opportunity, not only to show yourself as a delegate, but to connect with people who challenge you, support you, and remind you why Model United Nations is such a unique and special experience. While getting to know both the academy and organization, I whole-heartedly hope you have a great three days and get to know people that make you grateful you met them.
+            <br><br>
+            Thank you for being a part of this journey. I wish you all the very best in your debates, discussions, and discoveries.
+            <br><br>
+            Buona fortuna,
             </p>
-            <h3 class="mt-4 text-2xl font-bold">Hakan Rüzgar Kocaoğlu <br> Secretary-General</h3>
+            <h3 class="mt-4 text-2xl font-bold">Zeynep Rüya Özdemir<br>Secretary-General of ValidebağMUN'25</h3>
         </div>
     </div>
 </template>
@@ -52,11 +61,13 @@ const date = ref({ days: 15, hours: 5, minutes: 19, seconds: 19 });
 onNuxtReady(() => {
     setInterval(() => {
         const eventStartTime = Date.now();
-        const eventEndTime = new Date('2024-06-20 05:00:00Z');
+        const eventEndTime = new Date('2025-06-30 00:00:00Z');
         const duration = eventEndTime.valueOf() - eventStartTime.valueOf();
         date.value = { days: Math.floor(duration / (1000 * 60 * 60 * 24)), hours: Math.floor((duration % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)), minutes: Math.floor((duration % (1000 * 60 * 60)) / (1000 * 60)), seconds: Math.floor((duration % (1000 * 60)) / 1000) };
     }, 1000);
 })
 </script>
 
-<style scoped></style>
+<style scoped>
+
+</style>

@@ -1,16 +1,12 @@
 <template>
-    <div class="pt-8 hero text-neutral dark:text-neutral-content">
+    <div class="pt-8 hero text-neutral">
         <div class="flex-col hero-content lg:flex-row">
             <div>
-                <h1 class="text-5xl font-bold">Contact Us</h1>
-                <h3 class="py-4 text-xl">If you have any questions or concerns, please do not hesitate to contact us.
-                </h3>
-                <div class="flex flex-col">
-                    <a href="mailto:secretariat@validebagmun.org">Email: secretariat@validebagmun.org</a>
+                <h1 class="text-5xl font-bold">Contact</h1>
+                <div class="flex flex-col gap-4 py-4">
+                    <a href="https://instagram.com/validebagmun" target="_blank" class="text-xl">Instagram: @validebagmun</a>
+                    <a href="mailto:info@validebagmun.org" class="text-xl">Email Address: info@validebagmun.org</a>
                 </div>
-                <h3 class="py-4 text-lg">For inquiries about committees, please get in touch with the respective
-                    committee directors. You may find their email addresses in the documents that wil be made accessible
-                    shortly after the end of the application period.</h3>
             </div>
         </div>
     </div>
@@ -20,4 +16,6 @@
 
 </script>
 
-<style scoped></style>
+<style scoped>
+
+</style>
