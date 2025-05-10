@@ -3,8 +3,8 @@
         <footer class="footer sm:footer-horizontal bg-base-200 text-base-content p-10 text-[1rem]">
             <aside>
                 <div>
-                    <NuxtImg src="/vmun-light.svg" alt="ValidebagMUN logo" class="h-28" v-show="isDark" />
-                    <NuxtImg src="/vmun-dark.svg" alt="ValidebagMUN logo" class="h-28" v-show="!isDark" />
+                    <NuxtImg src="/vmun-white.svg" alt="ValidebagMUN logo" class="h-28" v-show="isDark" />
+                    <NuxtImg src="/vmun-black.svg" alt="ValidebagMUN logo" class="h-28" v-show="!isDark" />
                     <p>Validebağ Science High School<br />Model United Nations Club <br />Copyright &copy; 2025</p>
                     <span class="font-semibold text-neutral">Developed by <a target="_blank"
                             href="https://github.com/HexaBinary">HexaBinary</a>
@@ -15,7 +15,7 @@
             <nav>
                 <a><span class="footer-title">Conference</span></a>
                 <NuxtLink to="/" class="link link-hover">Home</NuxtLink>
-                <!-- <NuxtLink to="/apply/" class="link link-hover">Apply</NuxtLink> -->
+                <NuxtLink to="/apply/" class="link link-hover">Apply</NuxtLink>
                 <NuxtLink to="/team/secretariat/" class="link link-hover">Secretariat</NuxtLink>
                 <NuxtLink to="/team/directorate/" class="link link-hover">Directorate</NuxtLink>
                 <NuxtLink to="/venue/" class="link link-hover">Venue</NuxtLink>
