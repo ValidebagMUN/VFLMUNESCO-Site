@@ -3,7 +3,7 @@
         <Head>
             <Html lang="en" />
             <Link rel="icon" type="image/svg+xml" :href="favicon" />
-            <Meta name="canonical" content="https://www.validebagmun.org/"></Meta>
+            <Meta name="canonical" content="https://www.validebagmun.org"></Meta>
             <Meta name="keywords" contens="validebağ, validebağmun, mun, model united nations, high school, united nations"></Meta>
         </Head>
         <Header :is-dark="isDark" />
