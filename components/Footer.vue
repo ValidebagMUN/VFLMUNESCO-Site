@@ -34,6 +34,7 @@
                 <NuxtLink to="/committees/lon/" class="link link-hover">League of Nations</NuxtLink>
                 <NuxtLink to="/committees/hcc/" class="link link-hover">HCC: Gothic War</NuxtLink>
                 <NuxtLink to="/committees/jcc/" class="link link-hover">JCC: Imjin War</NuxtLink>
+                <NuxtLink to="/committees/fjcc/" class="link link-hover">FJCC: Dance of the Dragons</NuxtLink>
             </nav>
             <nav>
                 <a><span class="footer-title">Legal</span></a>
