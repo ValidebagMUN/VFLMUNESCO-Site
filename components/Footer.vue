@@ -26,8 +26,8 @@
             </nav>
             <nav>
                 <a><span class="footer-title">Committees</span></a>
-                <NuxtLink to="/committees/unep/" class="link link-hover">UNEP</NuxtLink>
                 <NuxtLink to="/committees/who/" class="link link-hover">WHO</NuxtLink>
+                <NuxtLink to="/committees/unep/" class="link link-hover">UNEP</NuxtLink>
                 <NuxtLink to="/committees/unicef/" class="link link-hover">UNICEF</NuxtLink>
                 <NuxtLink to="/committees/wipo/" class="link link-hover">WIPO</NuxtLink>
                 <NuxtLink to="/committees/unwomen/" class="link link-hover">UNWOMEN</NuxtLink>
