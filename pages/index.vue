@@ -45,7 +45,7 @@
             <br><br>
             In preparation for the sessions ahead, we have created comprehensive study guides that dive into each agenda item with careful attention to detail. These guides are meant to not only inform, but to inspire you deeply with the issues at hand and think critically about possible solutions. Apart from the committees, we have also prepared a variety of social activities and breaks that will allow you to relax, recharge, and build friendships with other delegates.
             <br><br>
-            Throughout these three days, I hope you take full advantage of this opportunity, not only to show yourself as a delegate, but to connect with people who challenge you, support you, and remind you why Model United Nations is such a unique and special experience. While getting to know both the academy and organization, I whole-heartedly hope you have a great three days and get to know people that make you grateful you met them.
+            Throughout these two days, I hope you take full advantage of this opportunity, not only to show yourself as a delegate, but to connect with people who challenge you, support you, and remind you why Model United Nations is such a unique and special experience. While getting to know both the academy and organization, I whole-heartedly hope you have a great two days and get to know people that make you grateful you met them.
             <br><br>
             Thank you for being a part of this journey. I wish you all the very best in your debates, discussions, and discoveries.
             <br><br>
@@ -54,7 +54,7 @@
             <h3 class="mt-4 text-2xl font-bold text-[#ebdec4]">İncilay Uysal<br>Director-General of ValidebağTrain'25</h3>
         </div>
     </div>
-</template>
+</template> 
 
 <script setup lang="ts">
 const date = ref({ days: 19, hours: 7, minutes: 53, seconds: 53 });

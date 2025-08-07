@@ -6,13 +6,13 @@
 
 <script setup lang="ts">
 const committee = {
-    slug: 'UNGA',
-    name: 'United Nations General Assembly',
+    slug: 'WHO',
+    name: 'World Health Organization',
     agenda: [
-        'The Role of Illicit Resource Exploitation in Fueling Armed Conflicts'
+        'Ensuring Equitable Access to Essential Medicines and Vaccines Amid Rising Pharmaceutical Nationalism and Intellectual Property Conflicts'
     ],
-    text: 'The United Nations General Assembly (UNGA) is the main organ of the United Nations that is involved in policy making. UNGA provides a unique platform for any international issue to be discussed where all 193 member states have an equal vote.\n\nControl over natural resources has been a big point of conflict for many different groups for centuries. Natural resources play an essential role in all areas of expansion, whether it be technologically, militarily, economically or socially. However, the extraction and trade of these resources being done illicitly can cause many issues especially when it comes to funding armed conflicts.\n\nIllicit extraction and trade of natural resources allow those resources to be sold at much higher margins. This is because labour and tax obligations are substantially reduced when compared to their legal counterparts. With the income that comes with selling natural resources on gray or black markets, many armed organisations can easily fund their campaigns and operations. They can also buy more weapons, ammunition and recruit more people to both prolong and expand their presence. This agenda item and the UNGA aims to discuss possible solutions to stop and prevent illicit exploitation of natural resources.',
-    image: '/img/committees/bg/unga.png',
+    text: 'The global distribution of vaccines and essential medicines remains unequal due to IP restrictions, pharmaceutical monopolies, and national stockpiling. Wealthy nations—particularly the U.S., U.K., and EU members—oppose intellectual property waivers, while countries like India, Brazil, and South Africa advocate for patent reform to ensure accessibility. This agenda pits public health against corporate profit, and international cooperation against national interest. China and Russia use pharmaceutical aid for geopolitical leverage, and the failure of mechanisms like COVAX exposes power asymmetries in global health governance—fueling a contentious debate on justice, sovereignty, and health equity.',
+    image: '/img/committees/bg/who.png',
     chair: "Efe Başeğmez - Elif İnci Damar",
     acas: "Reha Pilanlıoğlu" 
 }

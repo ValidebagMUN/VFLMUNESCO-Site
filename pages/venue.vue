@@ -22,7 +22,7 @@
                 </h3>
                 <div class="m-0 divider divider-neutral"></div>
                 <h3 class="py-4 text-lg">You can easily reach our venue by following these routes:</h3>
-                <div class="grid grid-cols-4 gap-x-1">
+                <div class="grid grid-cols-2 grid-rows-2 gap-1">
                     <div class="border-1 p-2">
                         <h4 class="font-bold">BUS - IETT</h4>
                         <p>Kadıköy: 14C
