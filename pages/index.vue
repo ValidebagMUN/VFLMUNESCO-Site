@@ -35,23 +35,21 @@
             </div>
         </div>
         <div class="min-h-[80vh] py-10 pt-20 mx-20 text-neutral">
-            <h2 class="text-3xl font-bold text-[#ebdec4]">Letter from the Director-General</h2>
+            <h2 class="text-3xl font-bold text-[#ebdec4]">Letter from the Secretary-General</h2>
             <div class="m-0 my-3 divider divider-neutral"></div>
-            <h3 class="mb-2 text-2xl font-bold text-[#ebdec4]">Most Esteemed Delegates,</h3>
+            <h3 class="mb-2 text-2xl font-bold text-[#ebdec4]">Most Esteemed Participants,</h3>
             <p class="text-xl text-[#ebdec4]">
-            It is both an honor and a true pleasure to welcome each and every one of you to the very first edition of ValidebağTrain. My name is İncilay Uysal, and as your Director-General, I can confirm that our team has worked very hard with great diligence in order to create a memorable experience.
+            As the secretary general I am very delighted to host each one of you in the second edition of ValidebagTrain’25. I can surely confirm that our team has worked very hard with great diligence in order to create a memorable experience for all of you.
             <br><br>
-            We have poured great effort into designing committees that provide an inclusive environment, where delegates can express themselves freely, regardless of their previous experience or background. Our aim was to eliminate any sense of hierarchy and ensure a space where everyone feels equally valued and empowered to speak.
+            To honour beginner delegates, we created committees that would make them comfortable in speaking behalf of themselves, where there is not a gap in experiences and that everyone would get equal treatment as those higher and lower themselves. We built up study guides that go through every one of crucial contents detailly and further explain the context to you. We organized various activities to keep you entertained during the breaks. And through the conference, we will make sure you have the best time you possibly could have.
             <br><br>
-            In preparation for the sessions ahead, we have created comprehensive study guides that dive into each agenda item with careful attention to detail. These guides are meant to not only inform, but to inspire you deeply with the issues at hand and think critically about possible solutions. Apart from the committees, we have also prepared a variety of social activities and breaks that will allow you to relax, recharge, and build friendships with other delegates.
+            While getting to know both the academy and organization, I frankly hope you have a great time and get to know people that make you grateful you met them.
             <br><br>
-            Throughout these two days, I hope you take full advantage of this opportunity, not only to show yourself as a delegate, but to connect with people who challenge you, support you, and remind you why Model United Nations is such a unique and special experience. While getting to know both the academy and organization, I whole-heartedly hope you have a great two days and get to know people that make you grateful you met them.
+            And lastly, I want you to remember that every journey has a beginning. What matters throughout the journey is not perfection, but giving your best and the experiences you gain along the way.
             <br><br>
-            Thank you for being a part of this journey. I wish you all the very best in your debates, discussions, and discoveries.
-            <br><br>
-            See you in ValidebağTrain'25,
+            Sincerely,<br>
+            <h3 class="mt-4 text-2xl font-bold text-[#ebdec4]">Zehra Betül Duysak<br>Secretary-General of ValidebağTrain'25</h3>
             </p>
-            <h3 class="mt-4 text-2xl font-bold text-[#ebdec4]">İncilay Uysal<br>Director-General of ValidebağTrain'25</h3>
         </div>
     </div>
 </template> 

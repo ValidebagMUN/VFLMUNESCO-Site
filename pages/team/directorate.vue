@@ -4,10 +4,10 @@
             <div>
                 <h1 class="my-10 text-5xl font-bold text-center text-[#ebdec4]">The Directorate</h1>
                 <div class="container flex flex-col items-center justify-center lg:flex-row">
-                    <TeamCard img="/img/team/def1.png" name="İncilay Uysal" title="Director-General" />
+                    <TeamCard img="/img/team/def1.jpg" name="İncilay Uysal" title="Director-General" />
                 </div>
                 <div class="container flex flex-col items-center justify-center lg:flex-row">
-                    <TeamCard img="/img/team/def.jpg" name="Ahmet Emir Alev🔥" title="Co-Head of Press & Media" />
+                    <TeamCard img="/img/team/def.jpg" name="Ahmet Emir Alev" title="Co-Head of Press & Media" />
                     <TeamCard img="/img/team/def.jpg" name="Ada Deveci" title="Co-Head of Press & Media" />
                 </div>
                 <div class="container flex flex-col items-center justify-center lg:flex-row">
