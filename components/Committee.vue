@@ -16,8 +16,8 @@
                 <div v-if="usg || chair" class="divider divider-neutral"></div>
                 <div class="my-4 text-xl text-[#ebdec4]">
                     <h3 v-if="usg"><span class="font-semibold text-[#ebdec4]">Under-Secretary-General:</span> {{ usg }}</h3>
-                    <h3 v-if="chair"><span class="font-semibold text-[#ebdec4]">{{ chair.split(' - ').length > 1 ? 'Presidency: ' :
-                            'President: ' }}</span>{{ chair }}</h3>
+                    <h3 v-if="chair"><span class="font-semibold text-[#ebdec4]">{{ chair.split(' - ').length > 1 ? 'Presidency Chair: ' :
+                            'President Chair: ' }}</span>{{ chair }}</h3>
                     <h3 v-if="acas"><span class="font-semibold text-[#ebdec4]">Academic Assistant:</span> {{ acas }}</h3>
                 </div>
                 <div v-if="rop || sg" class="divider divider-neutral"></div>

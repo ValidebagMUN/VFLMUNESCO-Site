@@ -18,10 +18,10 @@
             <div>
                 <h1 class="text-5xl font-bold mb-6 lg:mt-[-1.75em] text-[#ebdec4]">Fees</h1>
                 <div class="flex flex-col gap-4 py-4">
-                    <h4 class="text-lg text-[#ebdec4]">Delegations: 650₺ per delegate</h4>
-                    <h4 class="text-lg text-[#ebdec4]">Individual Delegates: 675₺</h4>
-                    <h4 class="text-lg text-[#ebdec4]">Admins: 500₺</h4>
-                    <h4 class="text-lg text-[#ebdec4]">Press: 500₺</h4>
+                    <h4 class="text-lg text-[#ebdec4]">Delegations: 675₺ per delegate</h4>
+                    <h4 class="text-lg text-[#ebdec4]">Individual Delegates: 700₺</h4>
+                    <h4 class="text-lg text-[#ebdec4]">Admins: 525₺</h4>
+                    <h4 class="text-lg text-[#ebdec4]">Press: 525₺</h4>
                 </div>
             </div>
             <!--<div>
