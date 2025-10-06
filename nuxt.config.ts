@@ -26,6 +26,7 @@ export default defineNuxtConfig({
     storageKey: 'nuxt-color-mode'
   },
   routeRules: {
+    '/apply': { redirect: '/applications-closed' },
     '/committees/**': {
       prerender: true
     }

@@ -13,6 +13,7 @@ const committee = {
     image: '/img/committees/bg/wipo.png',
     chair: 'Zeynep Su Gezgin - Asya Ateş',
     acas: 'Ceren Canıtez', 
+    sg: 'https://docs.google.com/document/d/1yg1cXAjXGzGy_38wqKuK4MVwwKfL8MYsNWRy3mYGTvo/edit?usp=drive_link',
 }
 </script>
 

@@ -13,6 +13,7 @@ const committee = {
     image: '/img/committees/bg/unodc.png',
     chair: 'Rüya Aktaş, Deputy Chair: Melih Büyükbozkoyun',
     acas: 'Hazal Sakarya',
+    sg: 'https://docs.google.com/document/d/1WKDiSqTJZYGeOPHK7BtlziJdb_JoVizplSvkuyIwBVY/edit?usp=drive_link',
 }
 </script>
 

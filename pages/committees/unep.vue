@@ -1,4 +1,4 @@
-o<template>
+<template>
     <div>
         <Committee v-bind="committee" />
     </div>
@@ -13,6 +13,7 @@ const committee = {
     chair: 'Deniz Yıldırım - Baray Keskin',
     acas: 'Güngör Berkay Akkan',
     image: '/img/committees/bg/unep.png',
+    sg: 'https://docs.google.com/document/d/1cCeyfqcgKGWLK50CYrx_fZ49Ehkr4szpXUHuQfapmZA/edit?usp=drive_link',
 }
 </script>
 

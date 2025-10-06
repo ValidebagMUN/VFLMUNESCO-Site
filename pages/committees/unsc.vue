@@ -13,6 +13,7 @@ const committee = {
     chair: 'Aslı Yıldız, Deputy Chair: Tarık Eren Yılmaz',
     acas: 'Hamza Gezersu',
     image: '/img/committees/bg/unsc.png',
+    sg: 'https://docs.google.com/document/d/1OarjgImsK-MXZc5hrb5DR2YPIsbAsInuBFULk4OuvI0/edit?usp=drive_link',
 }
 </script>
 
