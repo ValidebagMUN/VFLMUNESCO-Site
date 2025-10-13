@@ -21,7 +21,7 @@ This is a Nuxt 3 website for the VFLMUNESCO (Validebağ Model UNESCO Conference)
 ### Routing & Pages
 - Standard Nuxt file-based routing with nested directories (`committees/`, `team/`, `legal/`)
 - Route rules in `nuxt.config.ts`: `/apply` redirects to `/applications-closed`
-- Committee pages are prerendered for performance
+- Commission pages are prerendered for performance
 
 ### Maintenance Mode System
 - **Global middleware**: `middleware/maintenance.global.ts` checks both server and client-side
@@ -43,7 +43,7 @@ This is a Nuxt 3 website for the VFLMUNESCO (Validebağ Model UNESCO Conference)
 - **Build dependencies**: Uses onlyBuiltDependencies for sharp, @parcel/watcher, esbuild
 
 ### Content Organization
-- **Images**: Store team photos in `/public/img/team/`, committee images in `/public/img/committees/`
+- **Images**: Store team photos in `/public/img/team/`, commission images in `/public/img/committees/`
 - **Logos**: Multiple format variants in `/public/` (svg, png) for different contexts
 - **Brand assets**: Use `vmun-cream.png` for header logo (consistent with dark theme)
 

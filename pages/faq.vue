@@ -1,16 +1,16 @@
 <template>
-    <div class="flex-col w-full rounded-none join join-vertical text-neutral text-[#ebdec4]">
-        <h1 class="mx-8 text-5xl font-bold my-14  text-[#ebdec4]">Frequently Asked Questions</h1>
-        <div class="border collapse collapse-plus join-item  text-[#ebdec4]">
+    <div class="flex-col w-full rounded-none join join-vertical text-base-content">
+    <h1 class="mx-8 text-5xl font-bold my-14  text-base-content">Frequently Asked Questions</h1>
+    <div class="border collapse collapse-plus join-item  text-base-content">
             <input type="radio" name="faq-accordion" />
             <div class="text-xl font-medium collapse-title">
-                Which MUN procedure will ValidebağTrain follow?
+                Which MUN procedure will VFLMUNESCO follow?
             </div>
             <div class="collapse-content">
-                <p>All committees will be following the HarvardMUN rules of procedure.</p>
+                <p>All commissions will be following the HarvardMUN rules of procedure.</p>
             </div>
         </div>
-        <div class="border collapse collapse-plus join-item text-[#ebdec4]">
+    <div class="border collapse collapse-plus join-item text-base-content">
             <input type="radio" name="faq-accordion" />
             <div class="text-xl font-medium collapse-title">
                 What are the prescribed limits on the number of delegates per delegation?
@@ -19,7 +19,7 @@
                 <p>A delegation must consist of at least 5 delegates and may have a maximum of 20 delegates.</p>
             </div>
         </div>
-        <div class="border collapse collapse-plus join-item text-[#ebdec4]">
+    <div class="border collapse collapse-plus join-item text-base-content">
             <input type="radio" name="faq-accordion" />
             <div class="text-xl font-medium collapse-title">
                 What is the dress code of ValidebağTrain?
@@ -28,7 +28,7 @@
                 <p>Our dress code is "Western Business Attire". A delegate failing to abide by the dress code may have their right to audience suspended.</p>
             </div>
         </div>
-        <div class="border collapse collapse-plus join-item text-[#ebdec4]">
+    <div class="border collapse collapse-plus join-item text-base-content">
             <input type="radio" name="faq-accordion" />
             <div class="text-xl font-medium collapse-title">
                 Does ValidebağTrain have a refund policy?
@@ -37,7 +37,7 @@
                 <p>Due to the nature of the application process, it is unfortunately not possible for us to provide refunds. The ValidebağTrain Directorate will only provide refunds in case of an error on our side.</p>
             </div>
         </div>
-        <div class="border collapse collapse-plus join-item text-[#ebdec4]">
+    <div class="border collapse collapse-plus join-item text-base-content">
             <input type="radio" name="faq-accordion" />
             <div class="text-xl font-medium collapse-title">
                 What is the venue of ValidebağTrain?
@@ -46,7 +46,7 @@
                 <p>The venue of ValidebağTrain is set to be Validebağ Science High School. For information on how to reach the venue, please check our <NuxtLink to="/venue" class="link">venue page</NuxtLink>.</p>
             </div>
         </div>
-        <div class="border collapse collapse-plus join-item text-[#ebdec4]">
+    <div class="border collapse collapse-plus join-item text-base-content">
             <input type="radio" name="faq-accordion" />
             <div class="text-xl font-medium collapse-title">
                 What is the schedule of ValidebağTrain?
@@ -55,7 +55,7 @@
                 <p>The scheduled date of this years edition of ValidebağTrain 11-12 October 2025. <NuxtLink to="/schedule" class="link">here</NuxtLink>.</p>
             </div>
         </div>
-        <div class="border collapse collapse-plus join-item text-[#ebdec4]">
+    <div class="border collapse collapse-plus join-item text-base-content">
             <input type="radio" name="faq-accordion" />
             <div class="text-xl font-medium collapse-title">
                 Is there an eligibility criterion for delegates?
@@ -64,7 +64,7 @@
                 <p>ValidebağTrain is open to students of secondary or higher educational institutions.</p>
             </div>
         </div>
-        <div class="border collapse collapse-plus join-item text-[#ebdec4]">
+    <div class="border collapse collapse-plus join-item text-base-content">
             <input type="radio" name="faq-accordion" />
             <div class="text-xl font-medium collapse-title">
                 Will ValidebağTrain provide accommodation for applicants from outside Istanbul?
@@ -83,8 +83,8 @@ useSchemaOrg([
         '@type': 'FAQPage'
     }),
     defineQuestion({
-        question: 'Which MUN procedure will ValidebağTrain follow?',
-        answer: 'All committees will be following the HarvardMUN rules of procedure.'
+        question: 'Which MUN procedure will VFLMUNESCO follow?',
+        answer: 'All commissions will be following the HarvardMUN rules of procedure.'
     }),
     defineQuestion({
         question: 'What are the prescribed limits on the number of delegates per delegation?',

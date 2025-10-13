@@ -1,6 +1,6 @@
 <template>
 <div class="my-10">
-    <div class="card w-80 mx-6 mb-3 bg-[#2b2b3e] rounded-none shadow-2xl" :key="slug">
+    <div class="card w-80 mx-6 mb-3 bg-base-200 rounded-none shadow-2xl" :key="slug">
         <NuxtLink :to="'/committees/' + slug"><figure>
             <NuxtImg :src="img" :alt="name" v-slot="{ src, isLoaded, imgAttrs }">
                 <img v-if="isLoaded" v-bind="imgAttrs" :src="src">
@@ -8,7 +8,7 @@
             </NuxtImg>
         </figure></NuxtLink>
     </div>
-    <h2 class="font-bold text-xl text-center text-[#ebdec4]">{{ slug?.toUpperCase() }}</h2>
+    <h2 class="font-bold text-xl text-center text-base-content">{{ slug?.toUpperCase() }}</h2>
 </div>
 </template>
 

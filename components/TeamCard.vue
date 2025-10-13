@@ -5,7 +5,7 @@
             <!-- <div v-show="!isLoaded" class="rounded-b-none shadow-2xl skeleton min-w-80 min-h-80" /> -->
             <NuxtImg v-show="!isLoaded" class="rounded-b-none shadow-2xl w-80 h-80 object-cover" src="/img/team/def.png"/>
         </figure>
-        <div class="card-body bg-[#2b2b3e] text-[#ebdec4]">
+    <div class="card-body bg-base-200 text-base-content">
             <h2 class="card-title">{{  name }}</h2>
             <p class="text-lg">{{ title }}</p>
         </div>

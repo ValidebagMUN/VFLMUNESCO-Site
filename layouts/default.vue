@@ -9,9 +9,8 @@
             <Meta name="keywords" contens="validebağ, validebağmun, mun, model united nations, high school, united nations, vflmunesco, unesco"></Meta>
         </Head>
         <Header :is-dark="isDark" />
-        <div class="min-h-[89vh] bg-[#202032]">
-            <!-- <NuxtLoadingIndicator :color="isDark ? '#2E4165' : '#5D1C25'" /> -->
-            <NuxtLoadingIndicator color="#9D0410"/>
+        <div class="min-h-[89vh] bg-base-300">
+            <NuxtLoadingIndicator color="oklch(var(--color-primary))"/>
             <NuxtPage />
         </div>
         <Footer :is-dark="isDark" />
@@ -21,12 +20,8 @@
 <script setup lang="ts">
 const colorMode = useColorMode()
 
-// const isDark = computed(() => colorMode.value === 'dark')
-// const favicon = computed(() => isDark.value ? '/vmun-white.svg' : '/vmun-black.svg')
-
-// Temporary constant dark mode for annual theme
-const favicon = '/vmun-black.svg'
-const isDark = true
+const isDark = computed(() => colorMode.value === 'dark')
+const favicon = computed(() => isDark.value ? '/vmun-white.svg' : '/vmun-black.svg')
 
 useSchemaOrg([
     defineWebPage(),

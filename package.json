@@ -15,7 +15,7 @@
     "@nuxtjs/color-mode": "3.5.2",
     "@nuxtjs/seo": "3.0.3",
     "@tailwindcss/vite": "^4.0.17",
-    "@unhead/vue": "^2.0.0-rc.8",
+    "@unhead/vue": "^2.0.2",
     "daisyui": "^5.0.9",
     "nuxt": "^3.16.1",
     "simple-analytics-vue": "^3.0.2",

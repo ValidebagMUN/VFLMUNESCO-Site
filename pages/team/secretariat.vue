@@ -2,7 +2,7 @@
     <div class="hero text-neutral overflow-clip">
         <div class="flex-col hero-content lg:flex-row">
             <div>
-                <h1 class="my-10 text-5xl font-bold text-center text-[#ebdec4]">The Secretariat</h1>
+                <h1 class="my-10 text-5xl font-bold text-center text-base-content">The Secretariat</h1>
                 <div class="container flex flex-col items-center justify-center lg:flex-row">
                     <TeamCard img="/img/team/zehra.jpg" name="Zehra Betül Duysak" title="Secretary-General" />
                     <TeamCard img="/img/team/yagmur.jpg" name="Yağmur Kaya" title="Deputy Secretary-General" />
