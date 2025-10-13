@@ -26,7 +26,6 @@ export default defineNuxtConfig({
     storageKey: 'nuxt-color-mode'
   },
   routeRules: {
-    '/apply': { redirect: '/applications-closed' },
     '/committees/**': {
       prerender: true
     }
@@ -49,8 +48,7 @@ export default defineNuxtConfig({
     disallow: [
       "/maintenance",
       "/legal",
-      "/img",
-      "/committees/larevolution"
+      "/img"
     ],
     blockAiBots: true
   }

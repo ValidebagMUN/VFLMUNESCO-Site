@@ -16,6 +16,7 @@
             <nav>
                 <a><span class="footer-title">Conference</span></a>
                 <NuxtLink to="/" class="link link-hover">Home</NuxtLink>
+                <NuxtLink to="/about/" class="link link-hover">About Us</NuxtLink>
                 <!-- <NuxtLink to="/apply/" class="link link-hover">Apply</NuxtLink> -->
                 <NuxtLink to="/team/secretariat/" class="link link-hover">Secretariat</NuxtLink>
                 <NuxtLink to="/team/directorate/" class="link link-hover">Directorate</NuxtLink>
@@ -25,13 +26,7 @@
                 <NuxtLink to="/contact/" class="link link-hover">Contact Us</NuxtLink>
             </nav>
             <nav>
-                <a><span class="footer-title">Committees</span></a>
-                <NuxtLink to="/committees/who/" class="link link-hover">WHO</NuxtLink>
-                <NuxtLink to="/committees/unep/" class="link link-hover">UNEP</NuxtLink>
-                <NuxtLink to="/committees/unicef/" class="link link-hover">UNICEF</NuxtLink>
-                <NuxtLink to="/committees/wipo/" class="link link-hover">WIPO</NuxtLink>
-                <NuxtLink to="/committees/unwomen/" class="link link-hover">UNWOMEN</NuxtLink>
-                <NuxtLink to="/committees/unsc/" class="link link-hover">UNSC</NuxtLink>
+                <a><span class="footer-title">Commissions</span></a>
             </nav>
             <nav>
                 <a><span class="footer-title">Legal</span></a>
