@@ -30,9 +30,9 @@ useSchemaOrg([
         description: 'Website of the Validebağ Model UNESCO Conference.'
     }),
     defineOrganization({
-        name: 'VFLMUNESCO',
+        name: 'ValidebağMUN',
         logo: '/logo.png',
-        url: "https://munesco.validebagmun.org",
+        url: "https://www.validebagmun.org",
         sameAs: [
             "https://www.instagram.com/validebagmun/",
             "https://github.com/ValidebagMUN"
