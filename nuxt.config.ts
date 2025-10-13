@@ -32,9 +32,9 @@ export default defineNuxtConfig({
     }
   },
   site: {
-    url: 'https://www.validebagmun.org',
-    name: 'ValidebağTrain',
-    description: 'Validebağ Model United Nations Conference',
+    url: 'https://munesco.validebagmun.org',
+    name: 'VFLMUNESCO',
+    description: 'Validebağ Model UNESCO Conference',
     defaultLocale: 'en',
   },
   app: {

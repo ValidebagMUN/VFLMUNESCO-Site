@@ -4,7 +4,7 @@
             <div class="hero-overlay bg-opacity-100 opacity-25 bg-[#2b2b3e]"></div>
             <div class="text-center hero-content text-base-content">
                 <div class="max-w-md">
-                    <h1 class="mt-[2em] mb-5 text-5xl font-bold">Introducing ValidebağTrain</h1>
+                    <h1 class="mt-[2em] mb-5 text-5xl font-bold">Introducing VFLMUNESCO</h1>
                     <div class="grid justify-center grid-flow-col gap-5 mb-2 text-center auto-cols-max">
                         <div class="flex flex-col">
                             <span class="font-mono text-5xl countdown">
@@ -48,7 +48,7 @@
             And lastly, I want you to remember that every journey has a beginning. What matters throughout the journey is not perfection, but giving your best and the experiences you gain along the way.
             <br><br>
             Sincerely,<br>
-            <h3 class="mt-4 text-2xl font-bold text-[#ebdec4]">Zehra Betül Duysak<br>Secretary-General of ValidebağTrain'25</h3>
+            <span class="mt-4 text-2xl font-bold text-[#ebdec4]">Zehra Betül Duysak<br>Secretary-General of VFLMUNESCO'25</span>
             </p>
         </div>
     </div>

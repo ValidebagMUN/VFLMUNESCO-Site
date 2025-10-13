@@ -3,10 +3,10 @@
         <Head>
             <Html lang="en" />
             <Link rel="icon" type="image/svg+xml" :href="favicon" />
-            <Meta name="canonical" content="https://www.validebagmun.org"></Meta>
+            <Meta name="canonical" content="https://munesco.validebagmun.org"></Meta>
             <Meta name="robots" content="noai, noimageai"></Meta>
-            <Meta name="description" content="Website of the Validebağ Model United Nations Conference."></Meta>
-            <Meta name="keywords" contens="validebağ, validebağmun, mun, model united nations, high school, united nations, validebağtrain"></Meta>
+            <Meta name="description" content="Website of the Validebağ Model UNESCO Conference."></Meta>
+            <Meta name="keywords" contens="validebağ, validebağmun, mun, model united nations, high school, united nations, vflmunesco, unesco"></Meta>
         </Head>
         <Header :is-dark="isDark" />
         <div class="min-h-[89vh] bg-[#202032]">
@@ -31,13 +31,13 @@ const isDark = true
 useSchemaOrg([
     defineWebPage(),
     defineWebSite({
-        name: 'ValidebağTrain',
-        description: 'Website of the ValidebağTrain.'
+        name: 'VFLMUNESCO',
+        description: 'Website of the Validebağ Model UNESCO Conference.'
     }),
     defineOrganization({
-        name: 'ValidebağTrain',
+        name: 'VFLMUNESCO',
         logo: '/logo.png',
-        url: "https://www.validebagmun.org",
+        url: "https://munesco.validebagmun.org",
         sameAs: [
             "https://www.instagram.com/validebagmun/",
             "https://github.com/ValidebagMUN"
