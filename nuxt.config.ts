@@ -16,7 +16,8 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
     },
-    maintenance: 'false'
+    maintenance: 'false',
+    appsOpen: 'false'
   },
   colorMode: {
     preference: 'dark',
