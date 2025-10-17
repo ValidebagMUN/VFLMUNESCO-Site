@@ -20,8 +20,11 @@
 <script setup lang="ts">
 const colorMode = useColorMode()
 
-const isDark = computed(() => colorMode.value === 'dark')
-const favicon = computed(() => isDark.value ? '/vmun-white.svg' : '/vmun-black.svg')
+// const isDark = computed(() => colorMode.value === 'dark')
+// const favicon = computed(() => isDark.value ? '/vmun-white.svg' : '/vmun-black.svg')
+
+const favicon = '/vmun-black.svg'
+const isDark = true
 
 useSchemaOrg([
     defineWebPage(),

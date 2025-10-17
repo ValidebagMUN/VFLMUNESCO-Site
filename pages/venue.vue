@@ -23,7 +23,7 @@
                 <div class="m-0 divider divider-neutral"></div>
                 <h3 class="py-4 text-lg">You can easily reach our venue by following these routes:</h3>
                 <div class="grid grid-cols-2 grid-rows-2 gap-1">
-                    <div class="border-1 p-2">
+                    <div class="p-2">
                         <h4 class="font-bold">BUS - IETT</h4>
                         <p>Kadıköy: 14C
                         <br>Üsküdar: 6, 11T, 12C</p>
@@ -31,19 +31,19 @@
                         <h4 class="font-bold">MINIBUS</h4>
                         <p>Kadıköy - Acıbadem Minibus</p>
                     </div>
-                    <div class="border-1 p-2">
+                    <div class="p-2">
                         <h4 class="font-bold">METRO</h4>
                         <p>>M5 Üsküdar-Samandıra Subway Line
                         <br>Altunizade Stop - Exit 7
                         <br>>M4 Kadıköy-Sabiha Gökçen Airport Subway Line
                         <br>Ayrılık Çeşmesi Stop</p>
                     </div>
-                    <div class="border-1 p-2">
+                    <div class="p-2">
                         <h4 class="font-bold">MARMARAY</h4>
                         <p>B1 Halkalı - Gebze & Ataköy - Pendik Suburban Train
                         <br>Ayrılık Çeşmesi Stop</p><br>
                     </div>
-                    <div class="border-1 p-2">
+                    <div class="p-2">
                         <h4 class="font-bold">METROBUS</h4>
                         <p>Altunizade Stop</p><br>
                     </div>
@@ -58,7 +58,7 @@
 <script setup lang="ts">
 useSchemaOrg([
     defineWebPage({
-        description: 'Learn how to reach the venue of Validebağ MUN 2025.',
+        description: 'Learn how to reach the venue of VFLMUNESCO IV.',
     })
 ])
 </script>

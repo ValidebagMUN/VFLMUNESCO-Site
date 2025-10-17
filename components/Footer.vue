@@ -7,7 +7,7 @@
                     <NuxtImg src="/vmun-black.svg" alt="ValidebagMUN logo" class="h-28" v-show="!isDark" />
                     <p>Validebağ Science High School<br />Model United Nations Club <br /><a target="_blank" href="https://github.com/ValidebagMUN/ValidebagMUN-Site/blob/main/LICENSE"><span class="copyleft">&copy;</span>
  Mozilla Public License 2.0</a></p>
-                    <span class="font-semibold text-neutral">Developed by <a target="_blank"
+                    <span class="font-semibold">Developed by <a target="_blank"
                             href="https://github.com/HexaBinary">HexaBinary</a>
                     </span>
                     <SimpleAnalyticsBadge :is-dark="isDark" />
@@ -17,11 +17,10 @@
                 <a><span class="footer-title">Conference</span></a>
                 <NuxtLink to="/" class="link link-hover">Home</NuxtLink>
                 <NuxtLink to="/about/" class="link link-hover">About Us</NuxtLink>
-                <!-- <NuxtLink to="/apply/" class="link link-hover">Apply</NuxtLink> -->
+                <NuxtLink to="/apply/" class="link link-hover">Apply</NuxtLink>
                 <NuxtLink to="/team/secretariat/" class="link link-hover">Secretariat</NuxtLink>
-                <NuxtLink to="/team/directorate/" class="link link-hover">Directorate</NuxtLink>
                 <NuxtLink to="/venue/" class="link link-hover">Venue</NuxtLink>
-                <NuxtLink to="/schedule/" class="link link-hover">Schedule</NuxtLink>
+                <!-- <NuxtLink to="/schedule/" class="link link-hover">Schedule</NuxtLink> -->
                 <NuxtLink to="/faq/" class="link link-hover">FAQ</NuxtLink>
                 <NuxtLink to="/contact/" class="link link-hover">Contact Us</NuxtLink>
             </nav>

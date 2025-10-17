@@ -13,7 +13,7 @@
                         <a>Our Team</a>
                         <ul class="p-2">
                             <li><NuxtLink to="/team/secretariat">Secretariat</NuxtLink></li>
-                            <li><NuxtLink to="/team/directorate">Directorate</NuxtLink></li>
+                            <li><NuxtLink to="/team/directorate">Advisorship</NuxtLink></li>
                         </ul>
                     </li>
                     <li><NuxtLink to="/committees">Commissions</NuxtLink></li>
@@ -30,11 +30,11 @@
                 </ul>
             </div>
 
-            <NuxtImg src="/vmun-white.svg" alt="ValidebagMUN logo" class="h-16 ml-1 "
+            <NuxtImg src="/vmun-white.svg" alt="ValidebagMUN logo" class="h-16 ml-1 hover:animate-pulse"
                 v-show="isDark" />
-            <NuxtImg src="/vmun-black.svg" alt="ValidebagMUN logo" class="h-16 ml-1 "
+            <NuxtImg src="/vmun-black.svg" alt="ValidebagMUN logo" class="h-16 ml-1 hover:animate-pulse"
                 v-show="!isDark" />
-            <NuxtLink id="logo" class="btn btn-ghost text-2xl mx-0 pl-0 pr-1.5 hidden md:flex text-base-content hover:bg-inherit hover:border-base-100" to="/">VFLMUNESCO</NuxtLink>
+            <NuxtLink id="logo" class="btn btn-ghost hover:bg-transparent hover:border-0 hover:shadow-none text-2xl mx-0 pl-0.5 pr-1.5 hidden md:flex text-base-content bg-transparent" to="/">VFLMUNESCO IV</NuxtLink>
         </div>
         <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
@@ -45,7 +45,7 @@
                             <NuxtLink class="text-base-content" to="/team/secretariat">SECRETARIAT</NuxtLink>
                         </li>
                         <li>
-                            <NuxtLink class="text-base-content" to="/team/directorate">DIRECTORATE</NuxtLink>
+                            <NuxtLink class="text-base-content" to="/team/directorate">ADVISORSHIP</NuxtLink>
                         </li>
                     </ul>
                 </div>
@@ -82,9 +82,9 @@ const props = defineProps({
 </script>
 
 <style scoped>
-.btn {
+/* .btn {
     height: calc(var(--spacing) * 11);
     padding-right: calc(var(--spacing) * 3);
     padding-left: calc(var(--spacing) * 3);
-}
+} */
 </style>

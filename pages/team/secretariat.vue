@@ -1,5 +1,5 @@
 <template>
-    <div class="hero text-neutral overflow-clip">
+    <!-- <div class="hero text-neutral overflow-clip">
         <div class="flex-col hero-content lg:flex-row">
             <div>
                 <h1 class="my-10 text-5xl font-bold text-center text-base-content">The Secretariat</h1>
@@ -13,7 +13,8 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
+    <TBA />
 </template>
 
 <script setup lang="ts">
