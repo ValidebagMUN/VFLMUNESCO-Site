@@ -8,7 +8,7 @@
 const committee = {
 	slug: 'CLT',
 	name: 'Culture Commission',
-	agenda: ['To be announced'],
+	agenda: ['Protecting Endangered Languages'],
 	text: '',
 	image: '/img/committees/bg/clt.png'
 }

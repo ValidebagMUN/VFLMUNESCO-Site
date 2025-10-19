@@ -8,7 +8,7 @@
 const committee = {
 	slug: 'ED',
 	name: 'Education Commission',
-	agenda: ['To be announced'],
+	agenda: ['Refacilitating Educational Institutions in Post-Conflict Regions'],
 	text: '',
 	image: '/img/committees/bg/ed.png'
 }

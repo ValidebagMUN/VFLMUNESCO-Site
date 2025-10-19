@@ -8,7 +8,7 @@
 const committee = {
 	slug: 'SPGE',
 	name: 'Special Commission on Gender Equality',
-	agenda: ['To be announced'],
+	agenda: ['Combatting Online Gendered Disinformation'],
 	text: '',
 	image: '/img/committees/bg/spge.png'
 }

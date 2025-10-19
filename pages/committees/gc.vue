@@ -8,7 +8,7 @@
 const committee = {
     slug: 'GC',
     name: 'General Conference',
-    agenda: ['To be announced'],
+    agenda: ['Establishing an International Framework for the Use of Digital Technologies in the Preservation and Promotion of Intangible Cultural Heritage', 'Decisions on the Reports of the Commissions on their Work'],
     text: '',
     image: '/img/committees/bg/gc.png'
 }

@@ -8,7 +8,7 @@
 const committee = {
 	slug: 'SC',
 	name: 'Natural Sciences Commission',
-	agenda: ['To be announced'],
+	agenda: ['Protecting Island Nations against Rising Sea Levels and Climate Change'],
 	text: '',
 	image: '/img/committees/bg/sc.png'
 }

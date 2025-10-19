@@ -8,7 +8,7 @@
 const committee = {
 	slug: 'CI',
 	name: 'Communication and Information Commission',
-	agenda: ['To be announced'],
+	agenda: ['The Effects of Recent Advancements in AI on Democracy'],
 	text: '',
 	image: '/img/committees/bg/ci.png'
 }

@@ -8,7 +8,7 @@
 const committee = {
 	slug: 'SHS',
 	name: 'Social and Human Sciences Commission',
-	agenda: ['To be announced'],
+	agenda: ['The Humanitarian Crisis in Sudan'],
 	text: '',
 	image: '/img/committees/bg/shs.png'
 }
