@@ -10,7 +10,7 @@ const committee = {
 	name: 'Special Commission on Gender Equality',
 	agenda: ['To be announced'],
 	text: '',
-	image: '/committees/bg/spge.png'
+	image: '/img/committees/bg/spge.png'
 }
 </script>
 

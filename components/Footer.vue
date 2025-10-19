@@ -28,10 +28,19 @@
                 <NuxtLink to="/contact/" class="link link-hover">Contact Us</NuxtLink>
             </nav>
             <nav>
-                <a><span class="footer-title">Commissions</span></a>
+                <NuxtLink to="/committees/"><span class="footer-title">Commissions</span></NuxtLink>
+                <NuxtLink to="/committees/gc/" class="link link-hover">General Conference</NuxtLink> 
+                <NuxtLink to="/committees/ed/" class="link link-hover">Education</NuxtLink>
+                <NuxtLink to="/committees/ci/" class="link link-hover">Communication and Information</NuxtLink>
+                <NuxtLink to="/committees/clt/" class="link link-hover">Culture</NuxtLink>
+                <NuxtLink to="/committees/sc/" class="link link-hover">Natural Sciences</NuxtLink>
+                <NuxtLink to="/committees/shs/" class="link link-hover">Social and Human Sciences</NuxtLink>
+                <NuxtLink to="/committees/spge/" class="link link-hover">Special Commission on Gender Equality</NuxtLink>
             </nav>
             <nav>
                 <a><span class="footer-title">Legal</span></a>
+                <a href="https://docs.google.com/document/d/1J53pwHzmqiKCYUgRaVzAgUcLetj_3ySdnAlizayeBb0/edit?usp=sharing" target="_blank" class="link link-hover">Code of Conduct</a>
+                <a href="#" target="_blank" class="link link-hover">AI Policy</a>
                 <NuxtLink to="/legal/tnc/" class="link link-hover">Terms and Conditions</NuxtLink>
                 <NuxtLink to="/legal/privpol/" class="link link-hover">Privacy policy</NuxtLink>
             </nav>

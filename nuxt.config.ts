@@ -27,9 +27,6 @@ export default defineNuxtConfig({
     storageKey: 'nuxt-color-mode'
   },
   routeRules: {
-    '/committees/**': {
-      prerender: true
-    }
   },
   site: {
     url: 'https://munesco.validebagmun.org',

@@ -7,10 +7,10 @@
 <script setup lang="ts">
 const committee = {
 	slug: 'SC',
-	name: 'Natural Sciences',
+	name: 'Natural Sciences Commission',
 	agenda: ['To be announced'],
 	text: '',
-	image: '/committees/bg/sc.png'
+	image: '/img/committees/bg/sc.png'
 }
 </script>
 

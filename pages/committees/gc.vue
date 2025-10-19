@@ -10,7 +10,7 @@ const committee = {
     name: 'General Conference',
     agenda: ['To be announced'],
     text: '',
-    image: '/committees/bg/gc.png'
+    image: '/img/committees/bg/gc.png'
 }
 </script>
 
