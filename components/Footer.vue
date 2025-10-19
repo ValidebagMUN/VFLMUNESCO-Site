@@ -3,8 +3,11 @@
         <footer class="footer sm:footer-horizontal bg-base-200 text-base-content p-10 text-[1rem]">
             <aside>
                 <div>
-                    <NuxtImg src="/vmun-white.svg" alt="ValidebagMUN logo" class="h-28" v-show="isDark" />
-                    <NuxtImg src="/vmun-black.svg" alt="ValidebagMUN logo" class="h-28" v-show="!isDark" />
+                    <div class="flex flex-row">
+                        <NuxtImg src="/vmun-white.svg" alt="ValidebagMUN logo" class="h-28" v-show="isDark" />
+                        <NuxtImg src="/vmun-black.svg" alt="ValidebagMUN logo" class="h-28" v-show="!isDark" />
+                        <NuxtImg src="/munesco.svg" alt="VFLMUNESCO logo" class="h-28" v-show="isDark" />
+                    </div>
                     <p>Validebağ Science High School<br />Model United Nations Club <br /><a target="_blank" href="https://github.com/ValidebagMUN/ValidebagMUN-Site/blob/main/LICENSE"><span class="copyleft">&copy;</span>
  Mozilla Public License 2.0</a></p>
                     <span class="font-semibold">Developed by <a target="_blank"

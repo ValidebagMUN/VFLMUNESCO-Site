@@ -2,16 +2,16 @@
     <Head>
         <Title>{{ slug.toUpperCase() }}</Title>
     </Head>
-    <div class="pt-5 hero text-xl font-medium min-h-[89vh] text-base-content" :style="'background-image: url(' + image + ');'">
+    <div class="pt-5 hero text-xl font-medium min-h-[91vh] text-base-content" :style="'background-image: url(' + image + ');'">
         <div class="flex-col hero-content lg:flex-row-reverse">
             <div class="text-base-content">
                 <h1 class="mb-3 text-5xl font-semibold text-base-content">{{ slug.includes("cc") ? slug.toUpperCase() : slug }}</h1>
                 <h2 class="text-3xl text-base-content">{{ name }}</h2>
                 <div class="mt-2 mb-4">
-                    <h3 v-for="item in agenda" class="text-xl font-medium text-base-content">Agenda Item{{ agenda.length > 1 ? ' ' +
+                    <h3 v-for="item in agenda" class="text-xl font-medium text-base-content">Provisional Agenda{{ agenda.length > 1 ? ' ' +
                         (agenda.indexOf(item) + 1) : '' }}: <span class="text-lg text-base-content">{{ item }}</span></h3>
                 </div>
-                <div class="divider divider-neutral"></div>
+                <div class="divider"></div>
                 <p class="whitespace-pre-line text-base-content">{{ text }}</p>
                 <div v-if="usg || chair" class="divider divider-neutral"></div>
                 <div class="my-4 text-xl text-base-content">

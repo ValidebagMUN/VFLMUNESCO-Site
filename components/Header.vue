@@ -30,11 +30,11 @@
                 </ul>
             </div>
 
-            <NuxtImg src="/vmun-white.svg" alt="ValidebagMUN logo" class="h-16 ml-1 hover:animate-pulse"
+            <NuxtImg src="/munesco.svg" alt="ValidebagMUN logo" class="h-16 ml-1 hover:animate-pulse"
                 v-show="isDark" />
             <NuxtImg src="/vmun-black.svg" alt="ValidebagMUN logo" class="h-16 ml-1 hover:animate-pulse"
                 v-show="!isDark" />
-            <NuxtLink id="logo" class="btn btn-ghost hover:bg-transparent hover:border-0 hover:shadow-none text-2xl mx-0 pl-0.5 pr-1.5 hidden md:flex text-base-content bg-transparent" to="/">VFLMUNESCO IV</NuxtLink>
+            <NuxtLink id="logo" class="btn btn-ghost hover:bg-transparent hover:border-0 border-0  hover:shadow-none text-2xl mx-0 pl-0.5 pr-1.5 hidden md:flex text-base-content bg-transparent" to="/">VFLMUNESCO IV</NuxtLink>
         </div>
         <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">

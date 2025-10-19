@@ -1,10 +1,10 @@
 <template>
-    <div class="pt-8 hero text-neutral overflow-clip">
+    <div class="pt-4 hero text-neutral overflow-clip">
     <div class="flex-col-reverse hero-content lg:flex-col-reverse text-base-content">
             <!-- Train -->
             <iframe 
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.5942732924304!2d29.039484177063027!3d41.0122527713501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab9d47a2cdcd7%3A0xa003f63ae86dd751!2sValideba%C4%9F%20Fen%20Lisesi!5e0!3m2!1str!2str!4v1754575623911!5m2!1str!2str" 
-                class="lg:h-60 h-40 w-full aspect-[4/3] border-4 border-base-content" frameborder="0"
+                class="lg:h-100 h-80 w-full aspect-[4/3] border-4 border-base-content mt-[-4em]" frameborder="0"
                 referrerpolicy="no-referrer-when-downgrade">
 
             </iframe>
@@ -18,9 +18,8 @@
             </iframe> -->
             <div>
                 <h1 class="text-5xl font-bold">Venue</h1>
-                <h3 class="py-4 text-xl">Validebağ Science High School
-                </h3>
-                <div class="m-0 divider divider-neutral"></div>
+                <h3 class="py-4 text-xl">Validebağ Science High School</h3>
+                <div class="m-0 divider"></div>
                 <h3 class="py-4 text-lg">You can easily reach our venue by following these routes:</h3>
                 <div class="grid grid-cols-2 grid-rows-2 gap-1">
                     <div class="p-2">
@@ -38,12 +37,12 @@
                         <br>>M4 Kadıköy-Sabiha Gökçen Airport Subway Line
                         <br>Ayrılık Çeşmesi Stop</p>
                     </div>
-                    <div class="p-2">
+                    <div class="p-2 pb-0">
                         <h4 class="font-bold">MARMARAY</h4>
                         <p>B1 Halkalı - Gebze & Ataköy - Pendik Suburban Train
                         <br>Ayrılık Çeşmesi Stop</p><br>
                     </div>
-                    <div class="p-2">
+                    <div class="p-2 pb-0">
                         <h4 class="font-bold">METROBUS</h4>
                         <p>Altunizade Stop</p><br>
                     </div>
